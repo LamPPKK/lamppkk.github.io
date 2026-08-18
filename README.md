@@ -1,10 +1,10 @@
 # Nguyễn Đức Tùng Lâm — portfolio
 
-Trilingual professional portfolio published at <https://lamppkk.github.io/>.
+Multilingual professional portfolio published at <https://lamppkk.github.io/>.
 
 The site is built with Jekyll and the Oinam remote theme pinned to commit
 `7fd9e58cef66870615a2670abbed5a826d0b4808`. Content is stored once in `_data`
-and rendered in English, Vietnamese, and Japanese.
+and rendered in English, Vietnamese, Japanese, and Simplified Chinese.
 
 ## Local development
 
@@ -14,9 +14,14 @@ bundle exec ruby scripts/validate_content.rb
 bundle exec jekyll serve
 ```
 
-The canonical routes are `/`, `/experience/`, `/projects/`, `/credentials/`, and
-`/open-source/`. Vietnamese routes live below `/vi/`; Japanese routes live below
-`/ja/`.
+The canonical routes are `/`, `/about/`, `/experience/`, `/projects/`,
+`/credentials/`, and `/open-source/`. Vietnamese routes live below `/vi/`, Japanese routes below
+`/ja/`, and Simplified Chinese routes below `/zh/`. The language switch follows
+the display order EN → VI → JP → CN.
+
+The local visual system is a responsive “Pixel Operations Console”: an 8-bit
+gaming shell for a technical PM, web/mobile developer, and former game developer,
+while Oinam remains the pinned remote-theme foundation.
 
 ## Content sources
 

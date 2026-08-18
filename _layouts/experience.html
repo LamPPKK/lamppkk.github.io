@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign lang = page.lang %}{% assign copy = site.data.locales[lang] %}
-<header class="page-hero section-pad"><div class="shell narrow"><p class="eyebrow">2019 — {{ copy.labels.current }}</p><h1>{{ copy.experience.title }}</h1><p>{{ copy.experience.intro }}</p></div></header>
+<header class="page-hero section-pad" data-console-label="{{ copy.labels.loading }}"><div class="shell narrow"><p class="eyebrow">2019 — {{ copy.labels.current }}</p><h1>{{ copy.experience.title }}</h1><p>{{ copy.experience.intro }}</p></div></header>
 <section class="section-pad"><div class="shell experience-shell">
   <article class="experience-group">
     <div class="experience-employer"><span class="employer-mark">F</span><div><h2>FPT Software</h2><p>{{ copy.experience.progression }} · 2021 — {{ copy.labels.current }}</p></div></div>

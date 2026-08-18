@@ -6,7 +6,7 @@ require "yaml"
 
 root = File.expand_path("..", __dir__)
 projects = YAML.load_file(File.join(root, "_data", "projects.yml"))
-locales = { "en" => "", "vi" => "vi", "ja" => "ja" }
+locales = { "en" => "", "vi" => "vi", "ja" => "ja", "zh" => "zh" }
 
 projects.each do |project|
   locales.each do |lang, prefix|

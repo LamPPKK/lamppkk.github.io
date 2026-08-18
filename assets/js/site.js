@@ -2,7 +2,7 @@
   const root = document.documentElement;
   const themeSwitch = document.querySelector("#appearance-switch");
   const storedTheme = (() => { try { return localStorage.getItem("theme"); } catch (_) { return null; } })();
-  const preferredTheme = storedTheme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const preferredTheme = storedTheme || (window.matchMedia?.("(prefers-color-scheme: light)").matches ? "light" : "dark");
   root.dataset.theme = preferredTheme;
   if (themeSwitch) {
     themeSwitch.checked = preferredTheme === "dark";
@@ -105,7 +105,7 @@
       if (repo.language) appendText(meta, "span", repo.language);
       if (repo.fork) appendText(meta, "span", copy.fork || "Fork");
       if (repo.archived) appendText(meta, "span", copy.archived || "Archived");
-      appendText(meta, "span", `★ ${repo.stargazers_count || 0}`);
+      appendText(meta, "span", `${(copy.stars || "Stars").toLocaleUpperCase()} ${repo.stargazers_count || 0}`);
       repoGrid.appendChild(article);
     });
     if (showingNode) showingNode.textContent = String(Math.min(limit, matches.length));

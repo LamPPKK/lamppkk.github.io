@@ -7,8 +7,9 @@ layout: default
 <section class="hero section-pad">
   <div class="shell hero-grid">
     <div class="hero-copy">
+      <div class="boot-line" aria-hidden="true"><span>PORTFOLIO.SYS</span><span>{{ copy.labels.build }}</span><span>{{ copy.labels.status }}</span></div>
       <p class="eyebrow">{{ copy.home.kicker }}</p>
-      <h1>{{ profile.name }}</h1>
+      <h1>{{ profile.display_name[lang] }}</h1>
       <p class="hero-headline">{{ profile.headline[lang] }}</p>
       <p class="hero-intro">{{ copy.home.intro }}</p>
       <p class="hero-proof">{{ copy.home.proof }}</p>
@@ -19,13 +20,15 @@ layout: default
       </div>
     </div>
     <figure class="portrait-frame">
-      <img src="{{ '/assets/profile.jpg' | relative_url }}" width="720" height="720" alt="{{ profile.name }}" fetchpriority="high">
+      <span class="portrait-label" aria-hidden="true">{{ copy.labels.player }}</span>
+      <img src="{{ '/assets/profile.jpg' | relative_url }}" width="460" height="460" alt="{{ profile.display_name[lang] }}" fetchpriority="high">
       <figcaption><span>{{ profile.location[lang] }}</span><span>{{ profile.timezone }}</span></figcaption>
+      <div class="player-stats" aria-hidden="true"><span>PM / LEAD</span><span>DEV / BUILD</span><span>OPS / SHIP</span></div>
     </figure>
   </div>
 </section>
 
-<section class="section-pad section-ink" aria-labelledby="current-title">
+<section class="section-pad section-ink" aria-labelledby="current-title" data-console-label="// {{ copy.labels.mission_control }}">
   <div class="shell">
     <div class="section-heading split-heading">
       <div><p class="eyebrow">01</p><h2 id="current-title">{{ copy.home.current_role }}</h2></div>
@@ -34,7 +37,7 @@ layout: default
     <div class="current-grid">
       {% for item in site.data.experience %}{% if item.end_date == nil %}
       <article class="current-card">
-        <span class="status-dot" aria-hidden="true"></span>
+        <span class="status-dot" aria-hidden="true"></span><span class="mission-label" aria-hidden="true">{{ copy.labels.active_quest }}</span>
         <p>{{ item.employment_type[lang] }}{% if item.concurrent %} · {{ copy.labels.concurrent }}{% endif %}</p>
         <h3>{{ item.role[lang] }}</h3>
         <strong>{{ item.employer }}</strong>

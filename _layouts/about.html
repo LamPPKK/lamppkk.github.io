@@ -2,7 +2,16 @@
 layout: default
 ---
 {% assign lang = page.lang %}{% assign copy = site.data.locales[lang] %}{% assign profile = site.data.profile %}
-<header class="page-hero section-pad"><div class="shell narrow"><p class="eyebrow">{{ profile.headline[lang] }}</p><h1>{{ copy.about.title }}</h1>{% for paragraph in profile.about[lang] %}<p>{{ paragraph }}</p>{% endfor %}</div></header>
+<header class="page-hero section-pad" data-console-label="{{ copy.labels.loading }}"><div class="shell narrow"><p class="eyebrow">{{ profile.headline[lang] }}</p><h1>{{ copy.about.title }}</h1>{% for paragraph in profile.about[lang] %}<p>{{ paragraph }}</p>{% endfor %}</div></header>
+<section class="section-pad name-system" aria-labelledby="name-system-title"><div class="shell">
+  <div class="section-heading split-heading"><div><p class="eyebrow">ID.SYSTEM</p><h2 id="name-system-title">{{ copy.about.names }}</h2></div><p>{{ copy.names.intro }}</p></div>
+  <div class="name-format-grid">
+    <article class="name-format-card"><p class="eyebrow">CN / 中文</p><h3>{{ copy.names.chinese }}</h3><p class="script-name" lang="zh">{{ profile.name_formats.chinese.value }}</p><dl><div><dt>{{ copy.names.reading }}</dt><dd>{{ profile.name_formats.chinese.reading }}</dd></div></dl><p>{{ profile.name_formats.chinese.usage[lang] }}</p></article>
+    <article class="name-format-card"><p class="eyebrow">JP / KATAKANA</p><h3>{{ copy.names.japanese_katakana }}</h3><p class="script-name" lang="ja">{{ profile.name_formats.japanese_katakana.value }}</p><dl><div><dt>{{ copy.names.reading }}</dt><dd>{{ profile.name_formats.japanese_katakana.reading }}</dd></div><div><dt>{{ copy.names.legal }}</dt><dd>{{ profile.name_formats.japanese_katakana.legal }}</dd></div></dl><p>{{ profile.name_formats.japanese_katakana.usage[lang] }}</p></article>
+    <article class="name-format-card"><p class="eyebrow">JP / KANJI</p><h3>{{ copy.names.japanese_kanji }}</h3><p class="script-name" lang="ja">{{ profile.name_formats.japanese_kanji.value }}</p><dl><div><dt>{{ copy.names.reading }}</dt><dd>{{ profile.name_formats.japanese_kanji.reading }}</dd></div></dl><p>{{ profile.name_formats.japanese_kanji.usage[lang] }}</p></article>
+  </div>
+  <div class="character-ledger"><p class="eyebrow">{{ copy.names.character_meanings }}</p><div>{% for item in profile.chinese_characters %}<article><strong lang="zh">{{ item.character }}</strong><span>{{ item.reading }}</span><p>{{ item.meaning[lang] }}</p></article>{% endfor %}</div></div>
+</div></section>
 <section class="section-pad section-tint"><div class="shell detail-grid">
   <div><p class="eyebrow">{{ copy.about.education }}</p>{% for item in profile.education %}<article class="detail-block"><h2>{{ item.school }}</h2><p>{{ item.degree[lang] }}</p><p class="mono">{{ item.start_date }} — {{ item.end_date }}</p></article>{% endfor %}</div>
   <div><p class="eyebrow">{{ copy.about.services }}</p><ul class="large-list">{% for item in profile.services[lang] %}<li>{{ item }}</li>{% endfor %}</ul></div>

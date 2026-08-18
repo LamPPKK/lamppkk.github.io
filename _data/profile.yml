@@ -1,58 +1,186 @@
+---
 id: nguyen-duc-tung-lam
-name: "Nguyễn Đức Tùng Lâm (Liam)"
-legal_name: "Nguyễn Đức Tùng Lâm"
+name: Nguyễn Đức Tùng Lâm (Liam)
+legal_name: Nguyễn Đức Tùng Lâm
 nickname: Liam
-location: {en: "Hanoi, Vietnam", vi: "Hà Nội, Việt Nam", ja: "ベトナム・ハノイ"}
-timezone: "UTC+07:00"
-email: "lamppkk@gmail.com"
+location:
+  en: Hanoi, Vietnam
+  vi: Hà Nội, Việt Nam
+  ja: ベトナム・ハノイ
+  zh: 越南河内
+timezone: UTC+07:00
+email: lamppkk@gmail.com
 phone: "+84 91 291 46 21"
-snapshot_date: "2026-08-19"
+snapshot_date: '2026-08-19'
 source:
-  primary: "https://www.linkedin.com/in/lamndt/"
+  primary: https://www.linkedin.com/in/lamndt/
   imported_manually: true
-  note: "Manual professional-profile snapshot; no cookies, tokens, activity, followers, analytics, or job-seeking status stored."
+  note: Manual professional-profile snapshot; no cookies, tokens, activity, followers, analytics, or job-seeking status stored.
 links:
-  linkedin: "https://www.linkedin.com/in/lamndt/"
-  github: "https://github.com/lamppkk"
+  linkedin: https://www.linkedin.com/in/lamndt/
+  github: https://github.com/lamppkk
 headline:
-  en: "Technical Project Manager · Software Operations Leader · IT Educator"
-  vi: "Quản lý Dự án Kỹ thuật · Lãnh đạo Vận hành Phần mềm · Giảng viên CNTT"
-  ja: "テクニカルプロジェクトマネージャー · ソフトウェア運用リーダー · IT講師"
+  en: Technical Project Manager · Software Operations Leader · IT Educator
+  vi: Quản lý Dự án Kỹ thuật · Lãnh đạo Vận hành Phần mềm · Giảng viên CNTT
+  ja: テクニカルプロジェクトマネージャー · ソフトウェア運用リーダー · IT講師
+  zh: 技术项目经理 · 软件运营负责人 · IT讲师
 about:
   en:
-    - "I am a Technical Project Manager who connects engineering decisions with business operations. My background spans mobile development, cybersecurity assessment, SaaS operations, and technical education."
-    - "At FPT Software and across concurrent engagements, I coordinate cross-functional teams, clarify scope, surface delivery risk, and turn complex work into transparent plans. More than five years of hands-on mobile engineering help me challenge estimates and support architecture decisions without losing sight of the customer outcome."
+  - I am a Technical Project Manager who connects engineering decisions with business operations. My background spans mobile development, cybersecurity assessment, SaaS operations, and technical education.
+  - At FPT Software and across concurrent engagements, I coordinate cross-functional teams, clarify scope, surface delivery risk, and turn complex work into transparent plans. More than five years of hands-on mobile engineering help me challenge estimates and support architecture decisions without losing sight of the customer outcome.
   vi:
-    - "Tôi là Quản lý Dự án Kỹ thuật, kết nối quyết định kỹ thuật với vận hành kinh doanh. Nền tảng của tôi trải rộng từ phát triển mobile, đánh giá an ninh mạng, vận hành SaaS đến đào tạo kỹ thuật."
-    - "Tại FPT Software và các công việc đồng thời, tôi phối hợp nhóm đa chức năng, làm rõ phạm vi, nhận diện rủi ro và chuyển công việc phức tạp thành kế hoạch minh bạch. Hơn năm năm trực tiếp phát triển mobile giúp tôi phản biện ước lượng và hỗ trợ quyết định kiến trúc mà vẫn bám sát kết quả khách hàng."
+  - Tôi là Quản lý Dự án Kỹ thuật, kết nối quyết định kỹ thuật với vận hành kinh doanh. Nền tảng của tôi trải rộng từ phát triển mobile, đánh giá an ninh mạng, vận hành SaaS đến đào tạo kỹ thuật.
+  - Tại FPT Software và các công việc đồng thời, tôi phối hợp nhóm đa chức năng, làm rõ phạm vi, nhận diện rủi ro và chuyển công việc phức tạp thành kế hoạch minh bạch. Hơn năm năm trực tiếp phát triển mobile giúp tôi phản biện ước lượng và hỗ trợ quyết định kiến trúc mà vẫn bám sát kết quả khách hàng.
   ja:
-    - "私は、エンジニアリング上の判断と事業運用をつなぐテクニカルプロジェクトマネージャーです。モバイル開発、サイバーセキュリティ評価、SaaS運用、技術教育の経験があります。"
-    - "FPT Softwareおよび並行案件で、部門横断チームを調整し、スコープを明確化し、リスクを早期に示し、複雑な業務を透明な計画へ落とし込みます。5年以上のモバイル開発経験を生かし、顧客成果を見失わずに見積もりと設計判断を支援します。"
+  - 私は、エンジニアリング上の判断と事業運用をつなぐテクニカルプロジェクトマネージャーです。モバイル開発、サイバーセキュリティ評価、SaaS運用、技術教育の経験があります。
+  - FPT Softwareおよび並行案件で、部門横断チームを調整し、スコープを明確化し、リスクを早期に示し、複雑な業務を透明な計画へ落とし込みます。5年以上のモバイル開発経験を生かし、顧客成果を見失わずに見積もりと設計判断を支援します。
+  zh:
+  - 我是一名技术项目经理，致力于连接工程决策与业务运营。我的经验涵盖移动开发、网络安全评估、SaaS运营和技术教育。
+  - 在FPT Software及并行项目中，我协调跨职能团队、明确范围、提前暴露交付风险，并将复杂工作转化为透明计划。五年以上的一线移动开发经验，使我能够审视估算和架构决策，同时始终聚焦客户成果。
 education:
-  - id: utc-it-engineer
-    school: "University of Transport and Communications"
-    degree:
-      en: "Engineer’s Degree, Information Technology"
-      vi: "Bằng Kỹ sư, Công nghệ Thông tin"
-      ja: "工学士相当・情報技術"
-    start_date: "2017-08"
-    end_date: "2022-08"
-    source: cv
+- id: utc-it-engineer
+  school: University of Transport and Communications
+  degree:
+    en: Engineer’s Degree, Information Technology
+    vi: Bằng Kỹ sư, Công nghệ Thông tin
+    ja: 工学士相当・情報技術
+    zh: 工程师学位，信息技术
+  start_date: 2017-08
+  end_date: 2022-08
+  source: cv
 services:
-  en: ["Technical project leadership", "Software operations", "Mobile delivery", "Security-assessment coordination", "Agile delivery coaching"]
-  vi: ["Quản lý dự án kỹ thuật", "Vận hành phần mềm", "Triển khai mobile", "Điều phối đánh giá bảo mật", "Huấn luyện triển khai Agile"]
-  ja: ["技術プロジェクト管理", "ソフトウェア運用", "モバイルデリバリー", "セキュリティ評価調整", "アジャイルデリバリー支援"]
+  en:
+  - Technical project leadership
+  - Software operations
+  - Mobile delivery
+  - Security-assessment coordination
+  - Agile delivery coaching
+  vi:
+  - Quản lý dự án kỹ thuật
+  - Vận hành phần mềm
+  - Triển khai mobile
+  - Điều phối đánh giá bảo mật
+  - Huấn luyện triển khai Agile
+  ja:
+  - 技術プロジェクト管理
+  - ソフトウェア運用
+  - モバイルデリバリー
+  - セキュリティ評価調整
+  - アジャイルデリバリー支援
+  zh:
+  - 技术项目管理
+  - 软件运营
+  - 移动产品交付
+  - 安全评估协调
+  - 敏捷交付辅导
 languages:
-  - id: vietnamese
-    name: {en: "Vietnamese", vi: "Tiếng Việt", ja: "ベトナム語"}
-    level: {en: "Native", vi: "Bản ngữ", ja: "母語"}
-  - id: english
-    name: {en: "English", vi: "Tiếng Anh", ja: "英語"}
-    level: {en: "Highly proficient · CEFR C1", vi: "Thành thạo cao · CEFR C1", ja: "上級 · CEFR C1"}
-  - id: japanese
-    name: {en: "Japanese", vi: "Tiếng Nhật", ja: "日本語"}
-    level: {en: "Basic communication · JLPT N5 foundation", vi: "Giao tiếp cơ bản · nền tảng JLPT N5", ja: "基礎的なコミュニケーション · JLPT N5相当"}
+- id: vietnamese
+  name:
+    en: Vietnamese
+    vi: Tiếng Việt
+    ja: ベトナム語
+    zh: 越南语
+  level:
+    en: Native
+    vi: Bản ngữ
+    ja: 母語
+    zh: 母语
+- id: english
+  name:
+    en: English
+    vi: Tiếng Anh
+    ja: 英語
+    zh: 英语
+  level:
+    en: Highly proficient · CEFR C1
+    vi: Thành thạo cao · CEFR C1
+    ja: 上級 · CEFR C1
+    zh: 熟练 · CEFR C1
+- id: japanese
+  name:
+    en: Japanese
+    vi: Tiếng Nhật
+    ja: 日本語
+    zh: 日语
+  level:
+    en: Basic communication · JLPT N5 foundation
+    vi: Giao tiếp cơ bản · nền tảng JLPT N5
+    ja: 基礎的なコミュニケーション · JLPT N5相当
+    zh: 基础交流 · JLPT N5基础
 principles:
-  en: ["Make risk visible before it becomes delay.", "Translate business intent into testable delivery outcomes.", "Keep technical decisions legible to every stakeholder."]
-  vi: ["Làm rõ rủi ro trước khi nó trở thành chậm trễ.", "Chuyển mục tiêu kinh doanh thành kết quả triển khai có thể kiểm chứng.", "Giúp mọi bên liên quan hiểu được quyết định kỹ thuật."]
-  ja: ["遅延になる前にリスクを可視化する。", "事業意図を検証可能なデリバリー成果へ変換する。", "技術判断を全関係者に理解できる形で共有する。"]
+  en:
+  - Make risk visible before it becomes delay.
+  - Translate business intent into testable delivery outcomes.
+  - Keep technical decisions legible to every stakeholder.
+  vi:
+  - Làm rõ rủi ro trước khi nó trở thành chậm trễ.
+  - Chuyển mục tiêu kinh doanh thành kết quả triển khai có thể kiểm chứng.
+  - Giúp mọi bên liên quan hiểu được quyết định kỹ thuật.
+  ja:
+  - 遅延になる前にリスクを可視化する。
+  - 事業意図を検証可能なデリバリー成果へ変換する。
+  - 技術判断を全関係者に理解できる形で共有する。
+  zh:
+  - 在风险演变为延期之前将其可视化。
+  - 把业务意图转化为可验证的交付成果。
+  - 让每位利益相关方都能理解技术决策。
+display_name:
+  en: Nguyễn Đức Tùng Lâm (Liam)
+  vi: Nguyễn Đức Tùng Lâm (Liam)
+  ja: グエン・ドゥック・トゥン・ラム (Liam)
+  zh: 阮德松林 (Liam)
+name_formats:
+  chinese:
+    value: 阮德松林
+    reading: Ruǎn Dé Sōng Lín
+    usage:
+      en: A localized Chinese name for everyday communication. Passports, visas, banks, and contracts should follow the legal Latin spelling.
+      vi: Tên Hoa ngữ dùng trong giao tiếp hằng ngày. Hộ chiếu, visa, ngân hàng và hợp đồng phải theo tên Latin pháp lý.
+      ja: 日常交流向けの中国語名です。旅券、査証、銀行、契約では法的なラテン文字表記を使用します。
+      zh: 用于日常交流的中文名。护照、签证、银行和合同应使用法定拉丁字母拼写。
+  japanese_katakana:
+    value: グエン・ドゥック・トゥン・ラム
+    reading: Guen Dukku Tun Ramu
+    legal: NGUYEN DUC TUNG LAM
+    usage:
+      en: A Katakana reading used when Japanese forms request a phonetic name; the passport spelling remains the legal source.
+      vi: Phiên âm Katakana dùng khi biểu mẫu Nhật yêu cầu cách đọc; tên trên hộ chiếu vẫn là tên pháp lý.
+      ja: 日本の書式でフリガナを求められた際に使うカタカナ読みです。法的氏名は旅券のローマ字表記です。
+      zh: 日本表格要求填写姓名读音时使用的片假名；法律姓名仍以护照上的拉丁字母拼写为准。
+  japanese_kanji:
+    value: 阮 徳 松 林
+    reading: グエン・トク・ショウ・リン · Guen Toku Shō Rin
+    usage:
+      en: A meaning-oriented Kanji rendering for informal communication, not an official legal name.
+      vi: Cách viết Kanji giữ ý nghĩa để giao tiếp không chính thức, không phải tên pháp lý.
+      ja: 意味を伝えるための非公式な漢字表記であり、法的氏名ではありません。
+      zh: 用于表达含义的非正式日文汉字写法，并非法律姓名。
+chinese_characters:
+- character: 阮
+  reading: Ruǎn
+  meaning:
+    en: The Vietnamese family name Nguyễn.
+    vi: Họ Nguyễn phổ biến của người Việt.
+    ja: ベトナムで広く使われる姓「Nguyễn」。
+    zh: 越南常见姓氏“Nguyễn（阮）”。
+- character: 德
+  reading: Dé
+  meaning:
+    en: Virtue, integrity, and benevolence.
+    vi: Đạo đức, phẩm hạnh và lòng nhân hậu.
+    ja: 徳、品格、思いやり。
+    zh: 道德、品格与仁厚。
+- character: 松
+  reading: Sōng
+  meaning:
+    en: 'Pine: resilience, uprightness, and longevity.'
+    vi: 'Cây tùng: kiên cường, ngay thẳng và trường thọ.'
+    ja: 松：強さ、実直さ、長寿。
+    zh: 松树：坚韧、正直与长寿。
+- character: 林
+  reading: Lín
+  meaning:
+    en: 'Forest: breadth, stability, and growth.'
+    vi: 'Rừng cây: rộng lớn, vững chãi và tươi tốt.'
+    ja: 林：広がり、安定、繁栄。
+    zh: 树林：广阔、稳固与繁盛。

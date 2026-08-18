@@ -1,12 +1,14 @@
 <!doctype html>
-<html lang="{{ page.lang | default: site.lang }}" data-theme="light">
+{% assign html_lang = page.lang | default: site.lang %}{% if html_lang == 'zh' %}{% assign html_lang = 'zh-Hans' %}{% endif %}
+<html lang="{{ html_lang }}" data-theme="dark">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     {% assign translations = site.pages | where: "translation_key", page.translation_key %}
     {% for translation in translations %}
-      <link rel="alternate" hreflang="{{ translation.lang }}" href="{{ translation.url | absolute_url }}">
+      {% assign hreflang = translation.lang %}{% if hreflang == 'zh' %}{% assign hreflang = 'zh-Hans' %}{% endif %}
+      <link rel="alternate" hreflang="{{ hreflang }}" href="{{ translation.url | absolute_url }}">
     {% endfor %}
     {% assign english_translation = translations | where: "lang", "en" | first %}
     {% if english_translation %}<link rel="alternate" hreflang="x-default" href="{{ english_translation.url | absolute_url }}">{% endif %}
@@ -15,7 +17,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
     <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
   </head>
-  <body class="page-{{ page.layout }}">
+  <body class="page-{{ page.layout }} lang-{{ page.lang }}">
     {% assign copy = site.data.locales[page.lang] | default: site.data.locales.en %}
     <a class="skip-link" href="#main-content">{{ copy.accessibility.skip_to_content }}</a>
     {% include site-header.html %}

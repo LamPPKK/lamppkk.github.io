@@ -4,7 +4,7 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": {{ profile.name | jsonify }},
-  "alternateName": {{ profile.nickname | jsonify }},
+  "alternateName": [{{ profile.nickname | jsonify }}, {{ profile.display_name.ja | jsonify }}, {{ profile.display_name.zh | jsonify }}],
   "url": {{ site.url | jsonify }},
   "image": {{ '/assets/profile.jpg' | absolute_url | jsonify }},
   "jobTitle": {{ profile.headline.en | jsonify }},

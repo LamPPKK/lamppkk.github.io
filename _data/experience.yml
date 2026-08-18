@@ -1,155 +1,312 @@
+---
 - id: fpt-software-project-manager-2026-06
-  employer: "FPT Software"
+  employer: FPT Software
   group: fpt-software
   progression_order: 3
-  role: {en: "Project Manager", vi: "Quản lý Dự án", ja: "プロジェクトマネージャー"}
-  employment_type: {en: "Full-time", vi: "Toàn thời gian", ja: "正社員"}
-  start_date: "2026-06"
+  role:
+    en: Project Manager
+    vi: Quản lý Dự án
+    ja: プロジェクトマネージャー
+    zh: 项目经理
+  employment_type:
+    en: Full-time
+    vi: Toàn thời gian
+    ja: 正社員
+    zh: 全职
+  start_date: 2026-06
   end_date:
-  location: {en: "Hanoi, Vietnam · On-site", vi: "Hà Nội, Việt Nam · Tại văn phòng", ja: "ベトナム・ハノイ · 出社"}
+  location:
+    en: Hanoi, Vietnam · On-site
+    vi: Hà Nội, Việt Nam · Tại văn phòng
+    ja: ベトナム・ハノイ · 出社
+    zh: 越南河内 · 现场办公
   source: linkedin
   summary:
-    en: "Leads software initiatives across scope, schedule, resources, quality, risk, and stakeholder alignment."
-    vi: "Dẫn dắt sáng kiến phần mềm về phạm vi, tiến độ, nguồn lực, chất lượng, rủi ro và đồng thuận các bên."
-    ja: "スコープ、日程、要員、品質、リスク、関係者調整を含むソフトウェア案件を統括。"
+    en: Leads software initiatives across scope, schedule, resources, quality, risk, and stakeholder alignment.
+    vi: Dẫn dắt sáng kiến phần mềm về phạm vi, tiến độ, nguồn lực, chất lượng, rủi ro và đồng thuận các bên.
+    ja: スコープ、日程、要員、品質、リスク、関係者調整を含むソフトウェア案件を統括。
+    zh: 统筹软件项目的范围、进度、资源、质量、风险与利益相关方协同。
 - id: fpt-software-associate-pm-2025-06
-  employer: "FPT Software"
+  employer: FPT Software
   group: fpt-software
   progression_order: 2
-  role: {en: "Associate Project Manager", vi: "Phó Quản lý Dự án", ja: "アソシエイトプロジェクトマネージャー"}
-  employment_type: {en: "Full-time", vi: "Toàn thời gian", ja: "正社員"}
-  start_date: "2025-06"
-  end_date: "2026-05"
-  location: {en: "Hanoi, Vietnam · On-site", vi: "Hà Nội, Việt Nam · Tại văn phòng", ja: "ベトナム・ハノイ · 出社"}
+  role:
+    en: Associate Project Manager
+    vi: Phó Quản lý Dự án
+    ja: アソシエイトプロジェクトマネージャー
+    zh: 助理项目经理
+  employment_type:
+    en: Full-time
+    vi: Toàn thời gian
+    ja: 正社員
+    zh: 全职
+  start_date: 2025-06
+  end_date: 2026-05
+  location:
+    en: Hanoi, Vietnam · On-site
+    vi: Hà Nội, Việt Nam · Tại văn phòng
+    ja: ベトナム・ハノイ · 出社
+    zh: 越南河内 · 现场办公
   source: linkedin
   summary:
-    en: "Coordinated short-cycle Cyber Security Assurance engagements with security testing and offensive-security teams."
-    vi: "Điều phối các dự án Cyber Security Assurance chu kỳ ngắn với nhóm kiểm thử và offensive security."
-    ja: "セキュリティテストおよびOffSecチームと短期のCyber Security Assurance案件を調整。"
+    en: Coordinated short-cycle Cyber Security Assurance engagements with security testing and offensive-security teams.
+    vi: Điều phối các dự án Cyber Security Assurance chu kỳ ngắn với nhóm kiểm thử và offensive security.
+    ja: セキュリティテストおよびOffSecチームと短期のCyber Security Assurance案件を調整。
+    zh: 协调短周期网络安全保障项目，连接安全测试、攻防安全与应用团队。
 - id: fpt-software-ios-developer-2021-08
-  employer: "FPT Software"
+  employer: FPT Software
   group: fpt-software
   progression_order: 1
-  role: {en: "iOS App Developer", vi: "Lập trình viên ứng dụng iOS", ja: "iOSアプリ開発者"}
-  employment_type: {en: "Full-time", vi: "Toàn thời gian", ja: "正社員"}
-  start_date: "2021-08"
-  end_date: "2025-06"
-  location: {en: "Hanoi, Vietnam", vi: "Hà Nội, Việt Nam", ja: "ベトナム・ハノイ"}
+  role:
+    en: iOS App Developer
+    vi: Lập trình viên ứng dụng iOS
+    ja: iOSアプリ開発者
+    zh: iOS应用开发工程师
+  employment_type:
+    en: Full-time
+    vi: Toàn thời gian
+    ja: 正社員
+    zh: 全职
+  start_date: 2021-08
+  end_date: 2025-06
+  location:
+    en: Hanoi, Vietnam
+    vi: Hà Nội, Việt Nam
+    ja: ベトナム・ハノイ
+    zh: 越南河内
   source: linkedin
   summary:
-    en: "Built and maintained enterprise iOS products for banking, mobility, airport operations, education, automotive, and commerce domains."
-    vi: "Phát triển và bảo trì sản phẩm iOS doanh nghiệp cho ngân hàng, di chuyển, hàng không, giáo dục, ô tô và thương mại."
-    ja: "銀行、モビリティ、空港運用、教育、自動車、コマース領域の企業向けiOS製品を開発・保守。"
+    en: Built and maintained enterprise iOS products for banking, mobility, airport operations, education, automotive, and commerce domains.
+    vi: Phát triển và bảo trì sản phẩm iOS doanh nghiệp cho ngân hàng, di chuyển, hàng không, giáo dục, ô tô và thương mại.
+    ja: 銀行、モビリティ、空港運用、教育、自動車、コマース領域の企業向けiOS製品を開発・保守。
+    zh: 开发并维护银行、出行、机场运营、教育、汽车和商业领域的企业级iOS产品。
 - id: viettel-cyber-security-pm-2026-04
-  employer: "Viettel Cyber Security"
+  employer: Viettel Cyber Security
   concurrent: true
-  role: {en: "Project Manager", vi: "Quản lý Dự án", ja: "プロジェクトマネージャー"}
-  employment_type: {en: "Full-time", vi: "Toàn thời gian", ja: "正社員"}
-  start_date: "2026-04"
+  role:
+    en: Project Manager
+    vi: Quản lý Dự án
+    ja: プロジェクトマネージャー
+    zh: 项目经理
+  employment_type:
+    en: Full-time
+    vi: Toàn thời gian
+    ja: 正社員
+    zh: 全职
+  start_date: 2026-04
   end_date:
-  location: {en: "Hanoi, Vietnam · On-site", vi: "Hà Nội, Việt Nam · Tại văn phòng", ja: "ベトナム・ハノイ · 出社"}
+  location:
+    en: Hanoi, Vietnam · On-site
+    vi: Hà Nội, Việt Nam · Tại văn phòng
+    ja: ベトナム・ハノイ · 出社
+    zh: 越南河内 · 现场办公
   source: linkedin
   summary:
-    en: "Coordinates security-focused delivery and cross-functional execution in a concurrent engagement."
-    vi: "Điều phối triển khai tập trung vào bảo mật và thực thi đa chức năng trong một công việc đồng thời."
-    ja: "並行案件として、セキュリティ中心のデリバリーと部門横断実行を調整。"
+    en: Coordinates security-focused delivery and cross-functional execution in a concurrent engagement.
+    vi: Điều phối triển khai tập trung vào bảo mật và thực thi đa chức năng trong một công việc đồng thời.
+    ja: 並行案件として、セキュリティ中心のデリバリーと部門横断実行を調整。
+    zh: 在并行项目中协调以安全为核心的交付和跨职能执行。
 - id: nodesign-operations-pm-2024-06
-  employer: "Nodesign"
+  employer: Nodesign
   concurrent: true
-  role: {en: "Operations Project Manager", vi: "Quản lý Dự án Vận hành", ja: "運用プロジェクトマネージャー"}
-  employment_type: {en: "Freelance", vi: "Tự do", ja: "フリーランス"}
-  start_date: "2024-06"
+  role:
+    en: Operations Project Manager
+    vi: Quản lý Dự án Vận hành
+    ja: 運用プロジェクトマネージャー
+    zh: 运营项目经理
+  employment_type:
+    en: Freelance
+    vi: Tự do
+    ja: フリーランス
+    zh: 自由职业
+  start_date: 2024-06
   end_date:
-  location: {en: "Hanoi, Vietnam · Remote", vi: "Hà Nội, Việt Nam · Từ xa", ja: "ベトナム・ハノイ · リモート"}
+  location:
+    en: Hanoi, Vietnam · Remote
+    vi: Hà Nội, Việt Nam · Từ xa
+    ja: ベトナム・ハノイ · リモート
+    zh: 越南河内 · 远程
   source: linkedin
   summary:
-    en: "Plans creative-service workflows, coordinates product teams, facilitates Agile ceremonies, and improves task, booking, and resource operations."
-    vi: "Lập kế hoạch quy trình dịch vụ sáng tạo, điều phối nhóm sản phẩm, tổ chức nghi thức Agile và cải tiến vận hành công việc, đặt lịch, nguồn lực."
-    ja: "クリエイティブサービスのワークフロー設計、製品チーム調整、アジャイル進行、タスク・予約・要員運用改善を担当。"
+    en: Plans creative-service workflows, coordinates product teams, facilitates Agile ceremonies, and improves task, booking, and resource operations.
+    vi: Lập kế hoạch quy trình dịch vụ sáng tạo, điều phối nhóm sản phẩm, tổ chức nghi thức Agile và cải tiến vận hành công việc, đặt lịch, nguồn lực.
+    ja: クリエイティブサービスのワークフロー設計、製品チーム調整、アジャイル進行、タスク・予約・要員運用改善を担当。
+    zh: 规划创意服务流程，协调产品团队，主持敏捷活动，并优化任务、预约和资源运营。
 - id: viettel-software-junior-pm-2026-02
-  employer: "Viettel Software"
+  employer: Viettel Software
   concurrent: true
-  role: {en: "Junior Project Manager", vi: "Quản lý Dự án cấp Junior", ja: "ジュニアプロジェクトマネージャー"}
-  employment_type: {en: "Full-time", vi: "Toàn thời gian", ja: "正社員"}
-  start_date: "2026-02"
-  end_date: "2026-05"
-  location: {en: "Hanoi, Vietnam · On-site", vi: "Hà Nội, Việt Nam · Tại văn phòng", ja: "ベトナム・ハノイ · 出社"}
+  role:
+    en: Junior Project Manager
+    vi: Quản lý Dự án cấp Junior
+    ja: ジュニアプロジェクトマネージャー
+    zh: 初级项目经理
+  employment_type:
+    en: Full-time
+    vi: Toàn thời gian
+    ja: 正社員
+    zh: 全职
+  start_date: 2026-02
+  end_date: 2026-05
+  location:
+    en: Hanoi, Vietnam · On-site
+    vi: Hà Nội, Việt Nam · Tại văn phòng
+    ja: ベトナム・ハノイ · 出社
+    zh: 越南河内 · 现场办公
   source: linkedin
   summary:
-    en: "Supported project planning, reporting, team coordination, and issue tracking during a concurrent assignment."
-    vi: "Hỗ trợ lập kế hoạch, báo cáo, điều phối nhóm và theo dõi vấn đề trong một nhiệm vụ đồng thời."
-    ja: "並行業務で計画、報告、チーム調整、課題追跡を支援。"
+    en: Supported project planning, reporting, team coordination, and issue tracking during a concurrent assignment.
+    vi: Hỗ trợ lập kế hoạch, báo cáo, điều phối nhóm và theo dõi vấn đề trong một nhiệm vụ đồng thời.
+    ja: 並行業務で計画、報告、チーム調整、課題追跡を支援。
+    zh: 在并行任务中支持项目计划、报告、团队协调和问题跟踪。
 - id: fpt-polytechnic-it-lecturer-2024-02
-  employer: "FPT Polytechnic College"
+  employer: FPT Polytechnic College
   concurrent: true
-  role: {en: "Information Technology Lecturer", vi: "Giảng viên Công nghệ Thông tin", ja: "情報技術講師"}
-  employment_type: {en: "Part-time", vi: "Bán thời gian", ja: "パートタイム"}
-  start_date: "2024-02"
-  end_date: "2024-07"
-  location: {en: "Hanoi, Vietnam · On-site", vi: "Hà Nội, Việt Nam · Tại văn phòng", ja: "ベトナム・ハノイ · 出社"}
+  role:
+    en: Information Technology Lecturer
+    vi: Giảng viên Công nghệ Thông tin
+    ja: 情報技術講師
+    zh: 信息技术讲师
+  employment_type:
+    en: Part-time
+    vi: Bán thời gian
+    ja: パートタイム
+    zh: 兼职
+  start_date: 2024-02
+  end_date: 2024-07
+  location:
+    en: Hanoi, Vietnam · On-site
+    vi: Hà Nội, Việt Nam · Tại văn phòng
+    ja: ベトナム・ハノイ · 出社
+    zh: 越南河内 · 现场办公
   source: linkedin
   summary:
-    en: "Taught practical software-development concepts and supported students through project-based learning."
-    vi: "Giảng dạy kiến thức phát triển phần mềm thực hành và hỗ trợ sinh viên học theo dự án."
-    ja: "実践的なソフトウェア開発を教え、プロジェクト型学習を支援。"
+    en: Taught practical software-development concepts and supported students through project-based learning.
+    vi: Giảng dạy kiến thức phát triển phần mềm thực hành và hỗ trợ sinh viên học theo dự án.
+    ja: 実践的なソフトウェア開発を教え、プロジェクト型学習を支援。
+    zh: 讲授实践型软件开发，并通过项目制学习支持学生。
 - id: fpt-software-innovation-mobile-engineer-2022-03
-  employer: "FPT Software Innovation"
+  employer: FPT Software Innovation
   concurrent: true
-  role: {en: "Mobile Engineer", vi: "Kỹ sư Mobile", ja: "モバイルエンジニア"}
-  employment_type: {en: "Full-time", vi: "Toàn thời gian", ja: "正社員"}
-  start_date: "2022-03"
-  end_date: "2024-02"
-  location: {en: "Hanoi, Vietnam · Hybrid", vi: "Hà Nội, Việt Nam · Kết hợp", ja: "ベトナム・ハノイ · ハイブリッド"}
+  role:
+    en: Mobile Engineer
+    vi: Kỹ sư Mobile
+    ja: モバイルエンジニア
+    zh: 移动开发工程师
+  employment_type:
+    en: Full-time
+    vi: Toàn thời gian
+    ja: 正社員
+    zh: 全职
+  start_date: 2022-03
+  end_date: 2024-02
+  location:
+    en: Hanoi, Vietnam · Hybrid
+    vi: Hà Nội, Việt Nam · Kết hợp
+    ja: ベトナム・ハノイ · ハイブリッド
+    zh: 越南河内 · 混合办公
   source: linkedin
   summary:
-    en: "Explored and delivered mobile capabilities across Apple platforms, augmented reality, and applied product innovation."
-    vi: "Nghiên cứu và triển khai năng lực mobile trên nền tảng Apple, thực tế tăng cường và đổi mới sản phẩm ứng dụng."
-    ja: "Appleプラットフォーム、AR、応用プロダクト革新におけるモバイル機能を研究・開発。"
+    en: Explored and delivered mobile capabilities across Apple platforms, augmented reality, and applied product innovation.
+    vi: Nghiên cứu và triển khai năng lực mobile trên nền tảng Apple, thực tế tăng cường và đổi mới sản phẩm ứng dụng.
+    ja: Appleプラットフォーム、AR、応用プロダクト革新におけるモバイル機能を研究・開発。
+    zh: 探索并交付Apple平台、增强现实和产品创新方向的移动能力。
 - id: fpt-software-academy-fresher-ios-2021-03
-  employer: "FPT Software Academy"
-  role: {en: "Fresher iOS Developer", vi: "Lập trình viên iOS Fresher", ja: "新人iOS開発者"}
-  employment_type: {en: "Apprenticeship", vi: "Học việc", ja: "実習"}
-  start_date: "2021-03"
-  end_date: "2021-06"
-  location: {en: "Hanoi, Vietnam · On-site", vi: "Hà Nội, Việt Nam · Tại văn phòng", ja: "ベトナム・ハノイ · 出社"}
+  employer: FPT Software Academy
+  role:
+    en: Fresher iOS Developer
+    vi: Lập trình viên iOS Fresher
+    ja: 新人iOS開発者
+    zh: 初级iOS开发工程师
+  employment_type:
+    en: Apprenticeship
+    vi: Học việc
+    ja: 実習
+    zh: 学徒
+  start_date: 2021-03
+  end_date: 2021-06
+  location:
+    en: Hanoi, Vietnam · On-site
+    vi: Hà Nội, Việt Nam · Tại văn phòng
+    ja: ベトナム・ハノイ · 出社
+    zh: 越南河内 · 现场办公
   source: linkedin
   summary:
-    en: "Completed structured iOS engineering training and delivered practical Swift assignments."
-    vi: "Hoàn thành đào tạo kỹ thuật iOS có cấu trúc và các bài tập thực hành bằng Swift."
-    ja: "体系的なiOS開発研修を修了し、Swiftの実践課題を実装。"
+    en: Completed structured iOS engineering training and delivered practical Swift assignments.
+    vi: Hoàn thành đào tạo kỹ thuật iOS có cấu trúc và các bài tập thực hành bằng Swift.
+    ja: 体系的なiOS開発研修を修了し、Swiftの実践課題を実装。
+    zh: 完成系统化iOS工程培训并交付Swift实践任务。
 - id: qlhsdt-dotnet-developer-2020-02
-  employer: "Quản Lý Hồ Sơ Điện Tử"
-  role: {en: ".NET Developer", vi: "Lập trình viên .NET", ja: ".NET開発者"}
-  employment_type: {en: "Full-time", vi: "Toàn thời gian", ja: "正社員"}
-  start_date: "2020-02"
-  end_date: "2021-03"
-  location: {en: "Hanoi, Vietnam", vi: "Hà Nội, Việt Nam", ja: "ベトナム・ハノイ"}
+  employer: Quản Lý Hồ Sơ Điện Tử
+  role:
+    en: ".NET Developer"
+    vi: Lập trình viên .NET
+    ja: ".NET開発者"
+    zh: ".NET开发工程师"
+  employment_type:
+    en: Full-time
+    vi: Toàn thời gian
+    ja: 正社員
+    zh: 全职
+  start_date: 2020-02
+  end_date: 2021-03
+  location:
+    en: Hanoi, Vietnam
+    vi: Hà Nội, Việt Nam
+    ja: ベトナム・ハノイ
+    zh: 越南河内
   source: linkedin
   summary:
-    en: "Developed line-of-business features for electronic records management."
-    vi: "Phát triển tính năng nghiệp vụ cho hệ thống quản lý hồ sơ điện tử."
-    ja: "電子記録管理システムの業務機能を開発。"
+    en: Developed line-of-business features for electronic records management.
+    vi: Phát triển tính năng nghiệp vụ cho hệ thống quản lý hồ sơ điện tử.
+    ja: 電子記録管理システムの業務機能を開発。
+    zh: 为电子档案管理系统开发业务功能。
 - id: hht-it-helpdesk-2019-04
-  employer: "HHT Department of Information Technology"
-  role: {en: "IT Helpdesk", vi: "Hỗ trợ kỹ thuật CNTT", ja: "ITヘルプデスク"}
-  employment_type: {en: "Full-time", vi: "Toàn thời gian", ja: "正社員"}
-  start_date: "2019-04"
-  end_date: "2020-01"
-  location: {en: "Hanoi, Vietnam", vi: "Hà Nội, Việt Nam", ja: "ベトナム・ハノイ"}
+  employer: HHT Department of Information Technology
+  role:
+    en: IT Helpdesk
+    vi: Hỗ trợ kỹ thuật CNTT
+    ja: ITヘルプデスク
+    zh: IT技术支持
+  employment_type:
+    en: Full-time
+    vi: Toàn thời gian
+    ja: 正社員
+    zh: 全职
+  start_date: 2019-04
+  end_date: 2020-01
+  location:
+    en: Hanoi, Vietnam
+    vi: Hà Nội, Việt Nam
+    ja: ベトナム・ハノイ
+    zh: 越南河内
   source: linkedin
   summary:
-    en: "Supported users, diagnosed workstation and network issues, and maintained day-to-day IT services."
-    vi: "Hỗ trợ người dùng, chẩn đoán sự cố máy trạm và mạng, duy trì dịch vụ CNTT hằng ngày."
-    ja: "ユーザー支援、端末・ネットワーク障害対応、日常ITサービス運用を担当。"
+    en: Supported users, diagnosed workstation and network issues, and maintained day-to-day IT services.
+    vi: Hỗ trợ người dùng, chẩn đoán sự cố máy trạm và mạng, duy trì dịch vụ CNTT hằng ngày.
+    ja: ユーザー支援、端末・ネットワーク障害対応、日常ITサービス運用を担当。
+    zh: 支持用户、诊断终端和网络问题，并维护日常IT服务。
 - id: gears-game-developer-2019-01
   employer: ".GEARS Studios"
-  role: {en: "Game Developer", vi: "Lập trình viên Game", ja: "ゲーム開発者"}
-  employment_type: {en: "Internship", vi: "Thực tập", ja: "インターン"}
-  start_date: "2019-01"
-  end_date: "2019-04"
-  location: {en: "Hanoi, Vietnam · On-site", vi: "Hà Nội, Việt Nam · Tại văn phòng", ja: "ベトナム・ハノイ · 出社"}
+  role:
+    en: Game Developer
+    vi: Lập trình viên Game
+    ja: ゲーム開発者
+    zh: 游戏开发工程师
+  employment_type:
+    en: Internship
+    vi: Thực tập
+    ja: インターン
+    zh: 实习
+  start_date: 2019-01
+  end_date: 2019-04
+  location:
+    en: Hanoi, Vietnam · On-site
+    vi: Hà Nội, Việt Nam · Tại văn phòng
+    ja: ベトナム・ハノイ · 出社
+    zh: 越南河内 · 现场办公
   source: linkedin
   summary:
-    en: "Built gameplay prototypes and learned production collaboration in a studio environment."
-    vi: "Xây dựng nguyên mẫu gameplay và học quy trình phối hợp sản xuất trong môi trường studio."
-    ja: "ゲームプレイのプロトタイプを開発し、スタジオ制作の協働を経験。"
+    en: Built gameplay prototypes and learned production collaboration in a studio environment.
+    vi: Xây dựng nguyên mẫu gameplay và học quy trình phối hợp sản xuất trong môi trường studio.
+    ja: ゲームプレイのプロトタイプを開発し、スタジオ制作の協働を経験。
+    zh: 制作游戏玩法原型，并在工作室环境中学习协同制作流程。

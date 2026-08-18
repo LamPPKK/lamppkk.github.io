@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign lang = page.lang %}{% assign copy = site.data.locales[lang] %}{% assign matches = site.data.projects | where: "id", page.project_id %}{% assign project = matches | first %}
-<header class="project-hero section-pad"><div class="shell">
+<header class="project-hero section-pad" data-console-label="{{ copy.labels.quest_log }}"><div class="shell">
   <a class="text-link back-link" href="{% if lang == 'en' %}/projects/{% else %}/{{ lang }}/projects/{% endif %}"><span aria-hidden="true">←</span> {{ copy.actions.back_projects }}</a>
   {% case project.category %}{% when 'delivery' %}{% assign category_label = copy.projects.filter_delivery %}{% when 'mobile' %}{% assign category_label = copy.projects.filter_mobile %}{% when 'security' %}{% assign category_label = copy.projects.filter_security %}{% else %}{% assign category_label = copy.projects.filter_open %}{% endcase %}
   <div class="project-title-grid"><div><p class="eyebrow">{{ category_label }}</p><h1>{{ project.title[lang] }}</h1></div><dl class="project-facts"><div><dt>{{ copy.labels.role }}</dt><dd>{{ project.role[lang] }}</dd></div><div><dt>{{ copy.labels.period }}</dt><dd>{% if project.period.en %}{{ project.period[lang] }}{% else %}{{ project.period }}{% endif %}</dd></div><div><dt>{{ copy.labels.source }}</dt><dd>{% for source in project.source %}{% case source %}{% when 'cv' %}{{ copy.labels.source_cv }}{% when 'professional-portfolio' %}{{ copy.labels.source_portfolio }}{% when 'github' %}{{ copy.labels.source_github }}{% endcase %}{% unless forloop.last %} · {% endunless %}{% endfor %}</dd></div></dl></div>

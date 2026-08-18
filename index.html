@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="Lâm (Liam) Tùng Đức Nguyễn — Technical Project Manager, software operations leader, and mobile engineer in Hanoi."
+      content="Nguyễn Đức Tùng Lâm (Liam) — Technical Project Manager, software operations leader, and mobile engineer in Hanoi."
     >
     <meta name="theme-color" content="#f2eee4">
     <meta property="og:type" content="website">
@@ -18,9 +18,10 @@
     <meta property="og:image" content="https://devfuse.me/assets/profile.jpg">
     <meta property="og:image:width" content="460">
     <meta property="og:image:height" content="460">
-    <meta property="og:image:alt" content="Portrait of Lâm Tùng Đức Nguyễn">
+    <meta property="og:image:alt" content="Portrait of Nguyễn Đức Tùng Lâm">
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="vi_VN">
+    <meta property="og:locale:alternate" content="ja_JP">
     <link rel="canonical" href="https://devfuse.me/">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
@@ -50,14 +51,25 @@
         data-vi-aria-label="Điều hướng chính"
       >
         <a href="#work" data-en="Work" data-vi="Dự án">Work</a>
+        <a href="#projects" data-en="Archive" data-vi="Danh mục">Archive</a>
+        <a href="#credentials" data-en="Credentials" data-vi="Chứng chỉ">Credentials</a>
         <a href="#experience" data-en="Experience" data-vi="Kinh nghiệm">Experience</a>
-        <a href="#approach" data-en="Approach" data-vi="Cách làm">Approach</a>
         <a href="#about" data-en="About" data-vi="Giới thiệu">About</a>
       </nav>
 
-      <button class="language-toggle" type="button" aria-label="Switch language">
-        <span class="language-active">EN</span><span aria-hidden="true">/</span><span>VI</span>
-      </button>
+      <div
+        class="language-toggle"
+        role="group"
+        aria-label="Language"
+        data-en-aria-label="Language"
+        data-vi-aria-label="Ngôn ngữ"
+      >
+        <button class="language-option language-active" type="button" data-language="en" aria-pressed="true">EN</button>
+        <span aria-hidden="true">/</span>
+        <button class="language-option" type="button" data-language="vi" aria-pressed="false">VI</button>
+        <span aria-hidden="true">/</span>
+        <button class="language-option" type="button" data-language="jp" aria-pressed="false">JP</button>
+      </div>
     </header>
 
     <main id="main-content">
@@ -106,6 +118,12 @@
                 <path d="M7 17 17 7M8 7h9v9" />
               </svg>
             </a>
+            <a class="button button-secondary" href="assets/cv/Nguyen-Duc-Tung-Lam-CV.pdf" download>
+              <span data-en="Download CV" data-vi="Tải CV">Download CV</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 4v11M7 10l5 5 5-5M5 20h14" />
+              </svg>
+            </a>
           </div>
         </div>
 
@@ -118,16 +136,16 @@
           <div class="portrait-frame">
             <img
               src="assets/profile.jpg"
-              alt="Portrait of Lâm Tùng Đức Nguyễn"
-              data-en-alt="Portrait of Lâm Tùng Đức Nguyễn"
-              data-vi-alt="Chân dung Lâm Tùng Đức Nguyễn"
+              alt="Portrait of Nguyễn Đức Tùng Lâm"
+              data-en-alt="Portrait of Nguyễn Đức Tùng Lâm"
+              data-vi-alt="Chân dung Nguyễn Đức Tùng Lâm"
               width="460"
               height="460"
             >
             <span class="portrait-number" aria-hidden="true">01</span>
           </div>
           <div class="portrait-caption">
-            <p class="caption-name">Lâm <em>“Liam”</em> Nguyễn</p>
+            <p class="caption-name">Nguyễn Đức Tùng Lâm <em>“Liam”</em></p>
             <p
               data-en="Project leadership / Mobile / Systems"
               data-vi="Quản lý dự án / Mobile / Hệ thống"
@@ -159,8 +177,8 @@
           <span data-en="years in software" data-vi="năm làm phần mềm">years in software</span>
         </div>
         <div class="signal-item reveal">
-          <strong>11</strong>
-          <span data-en="documented projects" data-vi="dự án đã ghi nhận">documented projects</span>
+          <strong>12+</strong>
+          <span data-en="delivery projects" data-vi="dự án bàn giao">delivery projects</span>
         </div>
         <div class="signal-item reveal">
           <strong>43</strong>
@@ -169,12 +187,9 @@
           >
         </div>
         <div class="signal-statement reveal">
-          <span data-en="One shared outcome:" data-vi="Một mục tiêu chung:"
-            >One shared outcome:</span
-          >
-          <strong data-en="technology that works." data-vi="công nghệ vận hành hiệu quả."
-            >technology that works.</strong
-          >
+          <span data-en="Open-source footprint" data-vi="Dấu ấn mã nguồn mở">Open-source footprint</span>
+          <strong data-en="653 public repositories on GitHub." data-vi="653 kho mã nguồn công khai trên GitHub."
+            >653 public repositories on GitHub.</strong>
         </div>
       </section>
 
@@ -233,16 +248,16 @@
                 <span>C++</span><span>SwiftUI</span><span>Rust</span><span>Docker</span>
               </div>
               <div class="project-links">
-                <a href="https://github.com/LamPPKK/fireball-blink" target="_blank" rel="noreferrer"
+                <a href="https://github.com/lamppkk/fireball-blink" target="_blank" rel="noreferrer"
                   >Blink ↗</a
                 >
                 <a
-                  href="https://github.com/LamPPKK/fireball-webkit"
+                  href="https://github.com/lamppkk/fireball-webkit"
                   target="_blank"
                   rel="noreferrer"
                   >WebKit ↗</a
                 >
-                <a href="https://github.com/LamPPKK/XanhTab" target="_blank" rel="noreferrer"
+                <a href="https://github.com/lamppkk/XanhTab" target="_blank" rel="noreferrer"
                   >XanhTab ↗</a
                 >
               </div>
@@ -300,12 +315,248 @@
             </div>
           </article>
         </div>
+
+        <aside class="github-ledger reveal" aria-labelledby="github-ledger-title">
+          <div>
+            <p class="section-index" data-en="GITHUB / OPEN SOURCE" data-vi="GITHUB / MÃ NGUỒN MỞ">GITHUB / OPEN SOURCE</p>
+            <h3 id="github-ledger-title" data-en="A public lab for systems, mobile, and tooling." data-vi="Phòng thử nghiệm công khai cho hệ thống, mobile và công cụ.">
+              A public lab for systems, mobile, and tooling.
+            </h3>
+            <p data-en="653 public repositories, with original work spanning browser runtimes, Swift and Kotlin apps, WSL experiments, developer tooling, and learning archives."
+              data-vi="653 kho mã nguồn công khai, gồm các sản phẩm tự phát triển về browser runtime, ứng dụng Swift/Kotlin, thử nghiệm WSL, công cụ lập trình và kho học tập.">
+              653 public repositories, with original work spanning browser runtimes, Swift and Kotlin apps, WSL experiments, developer tooling, and learning archives.
+            </p>
+          </div>
+          <ul class="repo-list">
+            <li><a href="https://github.com/lamppkk/XanhTab" target="_blank" rel="noreferrer"><strong>XanhTab</strong><span>WPE WebKit · Rust · Raspberry Pi ↗</span></a></li>
+            <li><a href="https://github.com/lamppkk/fireball-docker" target="_blank" rel="noreferrer"><strong>fireball-docker</strong><span>WPE WebKit · Cloud · Docker ↗</span></a></li>
+            <li><a href="https://github.com/lamppkk/SmartMovie" target="_blank" rel="noreferrer"><strong>SmartMovie</strong><span data-en="Swift · Movie ranking ↗" data-vi="Swift · Xếp hạng phim ↗">Swift · Movie ranking ↗</span></a></li>
+            <li><a href="https://github.com/lamppkk/Zing-Chart" target="_blank" rel="noreferrer"><strong>Zing-Chart</strong><span data-en="Dart · Music chart ↗" data-vi="Dart · Bảng xếp hạng nhạc ↗">Dart · Music chart ↗</span></a></li>
+            <li><a href="https://github.com/lamppkk/Waydroid-WSL" target="_blank" rel="noreferrer"><strong>Waydroid-WSL</strong><span>C# · Android on WSL ↗</span></a></li>
+            <li><a href="https://github.com/lamppkk?tab=repositories" target="_blank" rel="noreferrer"><strong data-en="View all repositories" data-vi="Xem toàn bộ kho mã nguồn">View all repositories</strong><span>github.com/lamppkk ↗</span></a></li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="section archive-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading reveal">
+          <p class="section-index" data-en="03 / PROJECT ARCHIVE" data-vi="03 / DANH MỤC DỰ ÁN">03 / PROJECT ARCHIVE</p>
+          <h2 id="projects-title" data-en="The work, with the context intact." data-vi="Dự án, cùng đầy đủ bối cảnh.">The work, with the context intact.</h2>
+          <p data-en="An expandable record of 12 delivery engagements. Client-sensitive findings are intentionally excluded; scope, role, contribution, stack, and team context are preserved."
+            data-vi="Danh mục mở rộng của 12 dự án bàn giao. Các phát hiện nhạy cảm của khách hàng được chủ động lược bỏ; phạm vi, vai trò, đóng góp, công nghệ và quy mô đội ngũ vẫn được giữ lại.">
+            An expandable record of 12 delivery engagements. Client-sensitive findings are intentionally excluded; scope, role, contribution, stack, and team context are preserved.
+          </p>
+        </div>
+
+        <div class="archive-groups">
+          <div class="archive-group reveal">
+            <p class="archive-kicker" data-en="Security governance · 2025—2026" data-vi="Quản trị bảo mật · 2025—2026">Security governance · 2025—2026</p>
+            <div class="archive-list">
+              <details class="archive-card" open>
+                <summary><span>01</span><strong>FPT Managed Pentest Service</strong><small data-en="Project Manager" data-vi="Quản lý dự án">Project Manager</small></summary>
+                <div class="archive-body">
+                  <p data-en="Coordinated OWASP-aligned assessments for iOS, Android, and Flutter applications across internal FPT projects, from test planning through remediation verification."
+                    data-vi="Điều phối đánh giá bảo mật theo OWASP cho ứng dụng iOS, Android và Flutter thuộc các dự án nội bộ FPT, từ lập kế hoạch kiểm thử đến xác minh khắc phục.">Coordinated OWASP-aligned assessments for iOS, Android, and Flutter applications across internal FPT projects, from test planning through remediation verification.</p>
+                  <p data-en="Owned assessment plans, vulnerability tracking, risk reporting, stakeholder updates, remediation guidance, and coordination between pentesters and development teams."
+                    data-vi="Phụ trách kế hoạch đánh giá, theo dõi lỗ hổng, báo cáo rủi ro, cập nhật bên liên quan, hướng dẫn khắc phục và phối hợp giữa pentester với đội phát triển.">Owned assessment plans, vulnerability tracking, risk reporting, stakeholder updates, remediation guidance, and coordination between pentesters and development teams.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>07/2025—03/2026</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="20 pentesters" data-vi="20 chuyên gia pentest">20 pentesters</dd></div></dl>
+                  <div class="tag-list"><span>OWASP MASTG</span><span>Night Wolf</span><span>Burp Suite</span><span>iOS</span><span>Android</span><span>Flutter</span></div>
+                </div>
+              </details>
+
+              <details class="archive-card">
+                <summary><span>02</span><strong>Capital Land Bodyshop Security</strong><small data-en="Project Manager" data-vi="Quản lý dự án">Project Manager</small></summary>
+                <div class="archive-body">
+                  <p data-en="Managed an end-to-end security assessment of internal retail and automotive-service management systems, focusing on data protection and platform integrity."
+                    data-vi="Quản lý đánh giá bảo mật đầu-cuối cho hệ thống quản lý nội bộ khối bán lẻ và dịch vụ ô tô, tập trung vào bảo vệ dữ liệu và tính toàn vẹn nền tảng.">Managed an end-to-end security assessment of internal retail and automotive-service management systems, focusing on data protection and platform integrity.</p>
+                  <p data-en="Aligned the testing roadmap with operations, maintained the risk log, supervised portal and API testing, presented business-impact reports, and verified patches with the client IT team."
+                    data-vi="Đồng bộ lộ trình kiểm thử với vận hành, duy trì risk log, giám sát kiểm thử portal/API, trình bày báo cáo tác động kinh doanh và xác minh bản vá cùng đội IT khách hàng.">Aligned the testing roadmap with operations, maintained the risk log, supervised portal and API testing, presented business-impact reports, and verified patches with the client IT team.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>11/2025—02/2026</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="4 pentesters · 2 security analysts" data-vi="4 chuyên gia pentest · 2 chuyên gia bảo mật">4 pentesters · 2 security analysts</dd></div></dl>
+                  <div class="tag-list"><span>Web Security</span><span>API Testing</span><span>Night Wolf</span><span>Burp Suite</span><span>Risk Reporting</span></div>
+                </div>
+              </details>
+
+              <details class="archive-card">
+                <summary><span>03</span><strong>Resona Bank Japan Pentest</strong><small data-en="Project Manager" data-vi="Quản lý dự án">Project Manager</small></summary>
+                <div class="archive-body">
+                  <p data-en="Directed a high-compliance audit of Japanese financial-service applications, coordinating international stakeholders and rigorous banking-security requirements."
+                    data-vi="Điều hành kiểm toán bảo mật yêu cầu tuân thủ cao cho ứng dụng dịch vụ tài chính Nhật Bản, phối hợp các bên quốc tế và tiêu chuẩn bảo mật ngân hàng nghiêm ngặt.">Directed a high-compliance audit of Japanese financial-service applications, coordinating international stakeholders and rigorous banking-security requirements.</p>
+                  <p data-en="Supervised testing of core flows, translated risk into executive and developer-ready reporting, and ensured actionable remediation guidance before deployment."
+                    data-vi="Giám sát kiểm thử các luồng cốt lõi, chuyển hóa rủi ro thành báo cáo phù hợp cho lãnh đạo và lập trình viên, đồng thời bảo đảm hướng dẫn khắc phục khả thi trước triển khai.">Supervised testing of core flows, translated risk into executive and developer-ready reporting, and ensured actionable remediation guidance before deployment.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>11/2025—12/2025</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="5 pentesters · 2 security analysts" data-vi="5 chuyên gia pentest · 2 chuyên gia bảo mật">5 pentesters · 2 security analysts</dd></div></dl>
+                  <div class="tag-list"><span>Banking Security</span><span>Burp Suite</span><span>Night Wolf</span><span>JP Stakeholders</span></div>
+                </div>
+              </details>
+
+              <details class="archive-card">
+                <summary><span>04</span><strong>PrivateGPT Pentest</strong><small data-en="Project Manager" data-vi="Quản lý dự án">Project Manager</small></summary>
+                <div class="archive-body">
+                  <p data-en="Led a focused assessment of private LLM infrastructure covering prompt injection, sensitive-data exposure, API controls, and training-pipeline integrity."
+                    data-vi="Dẫn dắt đánh giá chuyên sâu hạ tầng LLM riêng tư, bao gồm prompt injection, lộ dữ liệu nhạy cảm, kiểm soát API và tính toàn vẹn pipeline huấn luyện.">Led a focused assessment of private LLM infrastructure covering prompt injection, sensitive-data exposure, API controls, and training-pipeline integrity.</p>
+                  <p data-en="Prioritized AI-specific risks, coordinated guardrails with AI engineers, and produced remediation guidance balancing model capability with enterprise security."
+                    data-vi="Ưu tiên rủi ro đặc thù AI, phối hợp triển khai guardrail với kỹ sư AI và xây dựng hướng dẫn khắc phục cân bằng năng lực mô hình với bảo mật doanh nghiệp.">Prioritized AI-specific risks, coordinated guardrails with AI engineers, and produced remediation guidance balancing model capability with enterprise security.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>11/2025</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="5 pentesters" data-vi="5 chuyên gia pentest">5 pentesters</dd></div></dl>
+                  <div class="tag-list"><span>LLM Security</span><span>Prompt Injection</span><span>API Pentest</span><span>AI Guardrails</span></div>
+                </div>
+              </details>
+
+              <details class="archive-card">
+                <summary><span>05</span><strong>FPTS Security</strong><small data-en="Project Manager" data-vi="Quản lý dự án">Project Manager</small></summary>
+                <div class="archive-body">
+                  <p data-en="Managed a time-critical assessment of securities-trading infrastructure and applications, protecting availability, transaction integrity, and user trust."
+                    data-vi="Quản lý đánh giá bảo mật trong thời gian gấp cho hạ tầng và ứng dụng giao dịch chứng khoán, bảo vệ tính sẵn sàng, toàn vẹn giao dịch và niềm tin người dùng.">Managed a time-critical assessment of securities-trading infrastructure and applications, protecting availability, transaction integrity, and user trust.</p>
+                  <p data-en="Tracked vulnerabilities to closure, accelerated collaboration between security and development teams, and delivered risk reports focused on financial impact."
+                    data-vi="Theo dõi lỗ hổng đến khi đóng, thúc đẩy phối hợp giữa đội bảo mật và phát triển, đồng thời bàn giao báo cáo rủi ro tập trung vào tác động tài chính.">Tracked vulnerabilities to closure, accelerated collaboration between security and development teams, and delivered risk reports focused on financial impact.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>10/2025</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="6 pentesters" data-vi="6 chuyên gia pentest">6 pentesters</dd></div></dl>
+                  <div class="tag-list"><span>Financial Systems</span><span>Infrastructure Pentest</span><span>Night Wolf</span><span>Burp Suite</span></div>
+                </div>
+              </details>
+            </div>
+          </div>
+
+          <div class="archive-group reveal">
+            <p class="archive-kicker" data-en="Mobile engineering · 2021—2025" data-vi="Kỹ thuật mobile · 2021—2025">Mobile engineering · 2021—2025</p>
+            <div class="archive-list">
+              <details class="archive-card" open>
+                <summary><span>06</span><strong>HSBC G-Carmel &amp; G-Avenger</strong><small data-en="iOS Developer · Lead" data-vi="Lập trình viên iOS · Trưởng nhóm">iOS Developer · Lead</small></summary>
+                <div class="archive-body">
+                  <p data-en="Built a multi-market iOS solution: eKYC onboarding for Vietnam and installment-payment management for Australia, designed for secure expansion."
+                    data-vi="Xây dựng giải pháp iOS đa thị trường: eKYC cho Việt Nam và quản lý trả góp cho Úc, với kiến trúc an toàn và có thể mở rộng.">Built a multi-market iOS solution: eKYC onboarding for Vietnam and installment-payment management for Australia, designed for secure expansion.</p>
+                  <p data-en="Estimated and implemented features, wrote unit tests, reviewed code, resolved issues with QA, optimized performance, and maintained regulatory and security compliance."
+                    data-vi="Ước lượng và triển khai tính năng, viết unit test, review code, xử lý lỗi cùng QA, tối ưu hiệu năng và duy trì yêu cầu tuân thủ/bảo mật.">Estimated and implemented features, wrote unit tests, reviewed code, resolved issues with QA, optimized performance, and maintained regulatory and security compliance.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>02/2024—06/2025</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="18 mobile specialists" data-vi="18 chuyên gia mobile">18 mobile specialists</dd></div></dl>
+                  <div class="tag-list"><span>Swift</span><span>SwiftUI</span><span>SPM</span><span>Firebase</span><span>Alamofire</span><span>eKYC</span></div>
+                </div>
+              </details>
+
+              <details class="archive-card">
+                <summary><span>07</span><strong>CDG G-ZIG23 &amp; G-ZIG24</strong><small data-en="iOS Developer" data-vi="Lập trình viên iOS">iOS Developer</small></summary>
+                <div class="archive-body">
+                  <p data-en="Developed an iOS mobility super app covering ride booking, pickup and drop-off, routing, ecommerce, loyalty, and a business transport marketplace."
+                    data-vi="Phát triển super app di chuyển trên iOS gồm đặt xe, điểm đón/trả, chỉ đường, thương mại điện tử, loyalty và marketplace vận tải doanh nghiệp.">Developed an iOS mobility super app covering ride booking, pickup and drop-off, routing, ecommerce, loyalty, and a business transport marketplace.</p>
+                  <p data-en="Estimated and delivered features, maintained unit tests and source quality, reviewed peer code, and partnered with QA on debugging and performance."
+                    data-vi="Ước lượng và bàn giao tính năng, duy trì unit test/chất lượng mã nguồn, review code đồng đội và phối hợp QA xử lý lỗi, hiệu năng.">Estimated and delivered features, maintained unit tests and source quality, reviewed peer code, and partnered with QA on debugging and performance.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>12/2022—01/2024</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="40 mobile specialists" data-vi="40 chuyên gia mobile">40 mobile specialists</dd></div></dl>
+                  <div class="tag-list"><span>Swift</span><span>SwiftUI</span><span>Google Maps</span><span>Firebase</span><span>Alamofire</span></div>
+                </div>
+              </details>
+
+              <details class="archive-card">
+                <summary><span>08</span><strong>ANA Clover</strong><small data-en="iOS Developer · Lead" data-vi="Lập trình viên iOS · Trưởng nhóm">iOS Developer · Lead</small></summary>
+                <div class="archive-body">
+                  <p data-en="Delivered an airport staff application for operational planning, task management, and efficient field reporting."
+                    data-vi="Bàn giao ứng dụng cho nhân sự sân bay phục vụ lập kế hoạch vận hành, quản lý nhiệm vụ và báo cáo hiện trường hiệu quả.">Delivered an airport staff application for operational planning, task management, and efficient field reporting.</p>
+                  <p data-en="Led iOS implementation across native UIKit flows, embedded WebKit experiences, and REST API integration."
+                    data-vi="Dẫn dắt triển khai iOS với luồng UIKit native, trải nghiệm WebKit nhúng và tích hợp REST API.">Led iOS implementation across native UIKit flows, embedded WebKit experiences, and REST API integration.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>04/2022—02/2023</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="5 mobile specialists" data-vi="5 chuyên gia mobile">5 mobile specialists</dd></div></dl>
+                  <div class="tag-list"><span>Swift</span><span>UIKit</span><span>Storyboard</span><span>WebKit</span><span>REST API</span></div>
+                </div>
+              </details>
+
+              <details class="archive-card">
+                <summary><span>09</span><strong>SP Mobile Polytechnic</strong><small data-en="Mobile Developer · Lead" data-vi="Lập trình viên Mobile · Trưởng nhóm">Mobile Developer · Lead</small></summary>
+                <div class="archive-body">
+                  <p data-en="Built an academic portal for students and lecturers with timetables, reminders, registration, grades, exams, campus maps, and student activities."
+                    data-vi="Xây dựng cổng học vụ cho sinh viên và giảng viên với thời khóa biểu, nhắc việc, đăng ký học, điểm thi, bản đồ trường và hoạt động sinh viên.">Built an academic portal for students and lecturers with timetables, reminders, registration, grades, exams, campus maps, and student activities.</p>
+                  <p data-en="Led cross-platform delivery and REST integration, including notifications and the transition path from Xamarin toward .NET MAUI."
+                    data-vi="Dẫn dắt bàn giao đa nền tảng và tích hợp REST, gồm thông báo đẩy và lộ trình chuyển từ Xamarin sang .NET MAUI.">Led cross-platform delivery and REST integration, including notifications and the transition path from Xamarin toward .NET MAUI.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>04/2022—01/2023</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="6 mobile specialists" data-vi="6 chuyên gia mobile">6 mobile specialists</dd></div></dl>
+                  <div class="tag-list"><span>C#</span><span>.NET</span><span>Xamarin</span><span>MAUI</span><span>REST API</span><span>Push</span></div>
+                </div>
+              </details>
+
+              <details class="archive-card">
+                <summary><span>10</span><strong>HondaVN CRM</strong><small data-en="iOS Developer · Lead" data-vi="Lập trình viên iOS · Trưởng nhóm">iOS Developer · Lead</small></summary>
+                <div class="archive-body">
+                  <p data-en="Built an iOS CRM connecting Honda Vietnam customers, dealers, and service centers for warranty lookup, QR scanning, claims, installation, and repair requests."
+                    data-vi="Xây dựng CRM iOS kết nối khách hàng Honda Việt Nam, đại lý và trung tâm dịch vụ cho tra cứu bảo hành, quét QR, gửi yêu cầu bảo hành, lắp đặt và sửa chữa.">Built an iOS CRM connecting Honda Vietnam customers, dealers, and service centers for warranty lookup, QR scanning, claims, installation, and repair requests.</p>
+                  <p data-en="Analyzed requirements and led feature implementation across BLE, location services, maps, Core Data, media, and Clean Swift architecture."
+                    data-vi="Phân tích yêu cầu và dẫn dắt triển khai tính năng trên BLE, định vị, bản đồ, Core Data, media và kiến trúc Clean Swift.">Analyzed requirements and led feature implementation across BLE, location services, maps, Core Data, media, and Clean Swift architecture.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>12/2021—04/2022</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="14 mobile specialists" data-vi="14 chuyên gia mobile">14 mobile specialists</dd></div></dl>
+                  <div class="tag-list"><span>Swift</span><span>UIKit</span><span>Clean Swift</span><span>BLE</span><span>Core Data</span><span>MapKit</span></div>
+                </div>
+              </details>
+
+              <details class="archive-card">
+                <summary><span>11</span><strong>DOJI SMART AI</strong><small data-en="iOS Developer" data-vi="Lập trình viên iOS">iOS Developer</small></summary>
+                <div class="archive-body">
+                  <p data-en="Created a luxury jewelry experience with 360-degree product views and AR try-on before an in-store purchase."
+                    data-vi="Xây dựng trải nghiệm trang sức cao cấp với góc nhìn sản phẩm 360 độ và thử trang sức bằng AR trước khi mua tại cửa hàng.">Created a luxury jewelry experience with 360-degree product views and AR try-on before an in-store purchase.</p>
+                  <p data-en="Implemented product presentation and virtual try-on flows across ARKit, UIKit, WebKit, REST services, and push notifications."
+                    data-vi="Triển khai luồng trình bày sản phẩm và thử ảo trên ARKit, UIKit, WebKit, REST service và push notification.">Implemented product presentation and virtual try-on flows across ARKit, UIKit, WebKit, REST services, and push notifications.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd>08/2021—05/2022</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="6 mobile specialists" data-vi="6 chuyên gia mobile">6 mobile specialists</dd></div></dl>
+                  <div class="tag-list"><span>Swift</span><span>ARKit</span><span>UIKit</span><span>WebKit</span><span>REST API</span></div>
+                </div>
+              </details>
+            </div>
+          </div>
+
+          <div class="archive-group reveal">
+            <p class="archive-kicker" data-en="Product operations · 2024—Now" data-vi="Vận hành sản phẩm · 2024—Nay">Product operations · 2024—Now</p>
+            <div class="archive-list">
+              <details class="archive-card" open>
+                <summary><span>12</span><strong>Nodesign · Rotider Media</strong><small data-en="Project Manager" data-vi="Quản lý dự án">Project Manager</small></summary>
+                <div class="archive-body">
+                  <p data-en="Managed an integrated customer booking, internal task-governance, and HRM ecosystem for a photo and video editing agency."
+                    data-vi="Quản lý hệ sinh thái tích hợp booking khách hàng, quản trị nhiệm vụ nội bộ và HRM cho một agency chỉnh sửa ảnh/video.">Managed an integrated customer booking, internal task-governance, and HRM ecosystem for a photo and video editing agency.</p>
+                  <p data-en="Orchestrated discovery through deployment, automated client-to-editor assignment, improved scheduling and status visibility, managed resource allocation, and aligned leadership stakeholders."
+                    data-vi="Điều phối từ khám phá đến triển khai, tự động hóa phân công khách hàng–editor, cải thiện lịch và minh bạch trạng thái, quản lý nguồn lực và đồng bộ lãnh đạo.">Orchestrated discovery through deployment, automated client-to-editor assignment, improved scheduling and status visibility, managed resource allocation, and aligned leadership stakeholders.</p>
+                  <dl><div><dt data-en="Period" data-vi="Thời gian">Period</dt><dd data-en="06/2024—Present" data-vi="06/2024—Nay">06/2024—Present</dd></div><div><dt data-en="Team" data-vi="Đội ngũ">Team</dt><dd data-en="10 product specialists" data-vi="10 thành viên sản phẩm">10 product specialists</dd></div></dl>
+                  <div class="tag-list"><span>React</span><span>React Native</span><span>PostgreSQL</span><span>Firebase</span><span>Agile</span><span>HRM</span></div>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section credentials-section" id="credentials" aria-labelledby="credentials-title">
+        <div class="section-heading reveal">
+          <p class="section-index" data-en="04 / CREDENTIALS + CV" data-vi="04 / CHỨNG CHỈ + CV">04 / CREDENTIALS + CV</p>
+          <h2 id="credentials-title" data-en="Learning, made visible." data-vi="Học hỏi, được chứng minh.">Learning, made visible.</h2>
+          <p data-en="Eight core credentials documented in the current CV, with 43 professional credentials available through LinkedIn."
+            data-vi="Tám chứng chỉ cốt lõi được ghi nhận trong CV hiện tại, cùng 43 chứng chỉ chuyên môn được tổng hợp trên LinkedIn.">Eight core credentials documented in the current CV, with 43 professional credentials available through LinkedIn.</p>
+        </div>
+
+        <div class="credentials-layout">
+          <div class="credential-grid">
+            <article class="credential-card reveal"><span>2025</span><p>Google</p><h3>Project Management Specialization</h3></article>
+            <article class="credential-card reveal"><span>2024</span><p>Atlassian</p><h3>Agile with Atlassian Jira</h3></article>
+            <article class="credential-card reveal"><span>2024</span><p>British Council · EnglishScore</p><h3>CEFR C1 Core Skills · 520</h3></article>
+            <article class="credential-card reveal"><span>2024</span><p>NVIDIA DLI</p><h3>Develop, Customize &amp; Publish in Omniverse With Extensions</h3></article>
+            <article class="credential-card reveal"><span>2023</span><p>NVIDIA DLI</p><h3>Building Video AI Applications at the Edge on Jetson Nano</h3></article>
+            <article class="credential-card reveal"><span>2019</span><p>ETS · TOEIC</p><h3>English for International Communication · 750/990</h3></article>
+            <article class="credential-card reveal"><span>2018</span><p>FPT FUNiX University</p><h3>Professional Front-End Design</h3></article>
+            <article class="credential-card reveal"><span>2018</span><p>FPT FUNiX University</p><h3>Professional Blockchain</h3></article>
+          </div>
+
+          <aside class="cv-card reveal" aria-labelledby="cv-card-title">
+            <p class="section-index">CURRICULUM VITAE / 2026</p>
+            <h3 id="cv-card-title" data-en="The complete professional record." data-vi="Hồ sơ nghề nghiệp đầy đủ.">The complete professional record.</h3>
+            <p data-en="Three pages covering profile, education, experience, core skills, credentials, and detailed delivery records."
+              data-vi="Ba trang gồm hồ sơ, học vấn, kinh nghiệm, năng lực cốt lõi, chứng chỉ và thông tin dự án chi tiết.">Three pages covering profile, education, experience, core skills, credentials, and detailed delivery records.</p>
+            <ul>
+              <li><strong>English</strong><span>C1 · EnglishScore 520</span></li>
+              <li><strong>日本語</strong><span data-en="N5 · Basic communication" data-vi="N5 · Giao tiếp cơ bản">N5 · Basic communication</span></li>
+              <li><strong data-en="Degree" data-vi="Bằng cấp">Degree</strong><span data-en="Information Technology Engineer" data-vi="Kỹ sư Công nghệ Thông tin">Information Technology Engineer</span></li>
+            </ul>
+            <div class="cv-actions">
+              <a class="button button-primary" href="assets/cv/Nguyen-Duc-Tung-Lam-CV.pdf" target="_blank" rel="noreferrer">
+                <span data-en="Open CV" data-vi="Mở CV">Open CV</span><span aria-hidden="true">↗</span>
+              </a>
+              <a class="button button-secondary" href="assets/cv/Nguyen-Duc-Tung-Lam-CV.pdf" download>
+                <span data-en="Download PDF" data-vi="Tải PDF">Download PDF</span><span aria-hidden="true">↓</span>
+              </a>
+              <a class="text-link" href="https://www.linkedin.com/in/lamndt/details/certifications/" target="_blank" rel="noreferrer" data-en="View all credentials on LinkedIn ↗" data-vi="Xem toàn bộ chứng chỉ trên LinkedIn ↗">View all credentials on LinkedIn ↗</a>
+            </div>
+          </aside>
+        </div>
       </section>
 
       <section class="section experience-section" id="experience" aria-labelledby="experience-title">
         <div class="section-heading section-heading-compact reveal">
-          <p class="section-index" data-en="03 / EXPERIENCE" data-vi="03 / KINH NGHIỆM">
-            03 / EXPERIENCE
+          <p class="section-index" data-en="05 / EXPERIENCE" data-vi="05 / KINH NGHIỆM">
+            05 / EXPERIENCE
           </p>
           <h2 id="experience-title" data-en="From building the product to leading the work." data-vi="Từ xây sản phẩm đến dẫn dắt công việc.">
             From building the product to leading the work.
@@ -401,10 +652,10 @@
         <div class="approach-intro reveal">
           <p
             class="section-index"
-            data-en="04 / OPERATING SYSTEM"
-            data-vi="04 / HỆ THỐNG LÀM VIỆC"
+            data-en="06 / OPERATING SYSTEM"
+            data-vi="06 / HỆ THỐNG LÀM VIỆC"
           >
-            04 / OPERATING SYSTEM
+            06 / OPERATING SYSTEM
           </p>
           <h2 id="approach-title" data-en="Clarity is a delivery tool." data-vi="Rõ ràng là một công cụ bàn giao.">
             Clarity is a delivery tool.
@@ -474,8 +725,8 @@
 
       <section class="section about-section" id="about" aria-labelledby="about-title">
         <div class="about-label reveal">
-          <p class="section-index" data-en="05 / ABOUT" data-vi="05 / GIỚI THIỆU">
-            05 / ABOUT
+          <p class="section-index" data-en="07 / ABOUT" data-vi="07 / GIỚI THIỆU">
+            07 / ABOUT
           </p>
           <div class="orbit-mark" aria-hidden="true">
             <span></span>
@@ -523,10 +774,10 @@
       <section class="contact-section" aria-labelledby="contact-title">
         <p
           class="section-index reveal"
-          data-en="06 / START A CONVERSATION"
-          data-vi="06 / BẮT ĐẦU TRAO ĐỔI"
+          data-en="08 / START A CONVERSATION"
+          data-vi="08 / BẮT ĐẦU TRAO ĐỔI"
         >
-          06 / START A CONVERSATION
+          08 / START A CONVERSATION
         </p>
         <h2 id="contact-title" class="reveal">
           <span data-en="Have a hard problem?" data-vi="Có một bài toán khó?">Have a hard problem?</span>
@@ -548,7 +799,7 @@
           </a>
           <a
             class="button button-ghost-light"
-            href="https://github.com/LamPPKK"
+            href="https://github.com/lamppkk"
             target="_blank"
             rel="noreferrer"
           >
@@ -560,7 +811,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="current-year">2026</span> Lâm Tùng Đức Nguyễn</p>
+      <p>© <span id="current-year">2026</span> Nguyễn Đức Tùng Lâm</p>
       <p data-en="Built with intent. Hosted on GitHub Pages." data-vi="Thiết kế có chủ đích. Lưu trữ trên GitHub Pages.">
         Built with intent. Hosted on GitHub Pages.
       </p>

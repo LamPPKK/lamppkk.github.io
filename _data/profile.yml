@@ -9,8 +9,11 @@ location:
   ja: ベトナム・ハノイ
   zh: 越南河内
 timezone: UTC+07:00
-email: lamppkk@gmail.com
-phone: "+84 91 291 46 21"
+email: LamNDT@outlook.com.vn
+emails:
+- LamNDT@outlook.com.vn
+- LamPPKK@gmail.com
+phone: "+84 912 914 621"
 snapshot_date: '2026-08-19'
 source:
   primary: https://www.linkedin.com/in/lamndt/

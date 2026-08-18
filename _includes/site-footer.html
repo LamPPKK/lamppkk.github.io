@@ -6,7 +6,20 @@
       <p class="footer-callout">{{ copy.footer.callout }}</p>
     </div>
     <div class="footer-links">
-      <a href="mailto:lamppkk@gmail.com">lamppkk@gmail.com<span aria-hidden="true">&gt;</span></a>
+      <div class="footer-contact">
+        <p>
+          <span class="footer-contact-label">{{ copy.footer.email }}:</span>
+          <span class="footer-contact-values">
+            {% for email in site.data.profile.emails %}
+              <a href="mailto:{{ email }}">{{ email }}</a>{% unless forloop.last %}<span aria-hidden="true">-</span>{% endunless %}
+            {% endfor %}
+          </span>
+        </p>
+        <p>
+          <span class="footer-contact-label">{{ copy.footer.mobile }}:</span>
+          <span class="footer-contact-values"><a href="tel:{{ site.data.profile.phone | remove: ' ' }}">{{ site.data.profile.phone }}</a></span>
+        </p>
+      </div>
       <a href="https://www.linkedin.com/in/lamndt/" rel="me">LinkedIn<span aria-hidden="true">&gt;</span></a>
       <a href="https://github.com/lamppkk" rel="me">GitHub<span aria-hidden="true">&gt;</span></a>
       <a href="{{ '/assets/cv/Nguyen-Duc-Tung-Lam-CV.pdf' | relative_url }}">{{ copy.actions.open_cv }}<span aria-hidden="true">&gt;</span></a>

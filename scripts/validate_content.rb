@@ -38,6 +38,12 @@ localized = lambda do |record, field, context|
 end
 
 errors << "profile name is not canonical" unless profile["name"] == "Nguyễn Đức Tùng Lâm (Liam)"
+email_pattern = /\A[^@\s]+@[^@\s]+\.[^@\s]+\z/
+profile_emails = profile.fetch("emails", [])
+errors << "profile: exactly two contact emails are required" unless profile_emails.size == 2
+profile_emails.each { |email| errors << "profile: invalid contact email #{email}" unless email.to_s.match?(email_pattern) }
+errors << "profile: primary email must be included in contact emails" unless profile_emails.include?(profile["email"])
+errors << "profile: invalid mobile number" unless profile["phone"].to_s.match?(/\A\+84 \d{3} \d{3} \d{3}\z/)
 LANGUAGES.each { |lang| errors << "missing locale #{lang}" unless locales.key?(lang) }
 english_locale = flatten_locale.call(locales.fetch("en", {}))
 LANGUAGES.each do |lang|

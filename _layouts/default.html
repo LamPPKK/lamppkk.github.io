@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    {% assign translations = site.pages | where: "translation_key", page.translation_key %}
+    {% for translation in translations %}
+      <link rel="alternate" hreflang="{{ translation.lang }}" href="{{ translation.url | absolute_url }}">
+    {% endfor %}
+    {% assign english_translation = translations | where: "lang", "en" | first %}
+    {% if english_translation %}<link rel="alternate" hreflang="x-default" href="{{ english_translation.url | absolute_url }}">{% endif %}
+    {% include person-jsonld.html %}
+    <style>{% include styles.html %}</style>
+    <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+    <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  </head>
+  <body class="page-{{ page.layout }}">
+    {% assign copy = site.data.locales[page.lang] | default: site.data.locales.en %}
+    <a class="skip-link" href="#main-content">{{ copy.accessibility.skip_to_content }}</a>
+    {% include site-header.html %}
+    <main id="main-content" tabindex="-1">
+      {{ content }}
+    </main>
+    {% include site-footer.html %}
+    <script>{% include scripts.html %}</script>
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+  </body>
+</html>

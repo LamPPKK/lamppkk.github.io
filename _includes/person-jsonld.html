@@ -1,0 +1,14 @@
+{% assign profile = site.data.profile %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ profile.name | jsonify }},
+  "alternateName": {{ profile.nickname | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "image": {{ '/assets/profile.jpg' | absolute_url | jsonify }},
+  "jobTitle": {{ profile.headline.en | jsonify }},
+  "sameAs": [{{ profile.links.linkedin | jsonify }}, {{ profile.links.github | jsonify }}],
+  "knowsLanguage": ["English", "Vietnamese", "Japanese"]
+}
+</script>

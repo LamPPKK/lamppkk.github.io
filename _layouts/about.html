@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% assign lang = page.lang %}{% assign copy = site.data.locales[lang] %}{% assign profile = site.data.profile %}
+<header class="page-hero section-pad"><div class="shell narrow"><p class="eyebrow">{{ profile.headline[lang] }}</p><h1>{{ copy.about.title }}</h1>{% for paragraph in profile.about[lang] %}<p>{{ paragraph }}</p>{% endfor %}</div></header>
+<section class="section-pad section-tint"><div class="shell detail-grid">
+  <div><p class="eyebrow">{{ copy.about.education }}</p>{% for item in profile.education %}<article class="detail-block"><h2>{{ item.school }}</h2><p>{{ item.degree[lang] }}</p><p class="mono">{{ item.start_date }} — {{ item.end_date }}</p></article>{% endfor %}</div>
+  <div><p class="eyebrow">{{ copy.about.services }}</p><ul class="large-list">{% for item in profile.services[lang] %}<li>{{ item }}</li>{% endfor %}</ul></div>
+  <div><p class="eyebrow">{{ copy.about.languages }}</p><dl class="language-list">{% for item in profile.languages %}<div><dt>{{ item.name[lang] }}</dt><dd>{{ item.level[lang] }}</dd></div>{% endfor %}</dl></div>
+  <div><p class="eyebrow">{{ copy.about.principles }}</p><ol class="principle-list">{% for item in profile.principles[lang] %}<li>{{ item }}</li>{% endfor %}</ol></div>
+</div></section>
+<section class="section-pad"><div class="shell"><div class="section-heading"><p class="eyebrow">{{ copy.labels.skills }}</p><h2>{{ copy.home.core_skills }}</h2></div><div class="skill-grid">{% for group in site.data.skills %}<article class="skill-card"><h3>{{ group.name[lang] }}</h3><ul class="tag-list">{% for skill in group.items[lang] %}<li>{{ skill }}</li>{% endfor %}</ul></article>{% endfor %}</div></div></section>

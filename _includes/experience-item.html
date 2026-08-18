@@ -1,0 +1,11 @@
+{% assign item = include.item %}{% assign lang = include.lang %}{% assign copy = include.copy %}
+<div class="experience-item" id="{{ item.id }}">
+  <div class="experience-date"><span>{{ item.start_date }}</span><span aria-hidden="true">→</span><span>{% if item.end_date %}{{ item.end_date }}{% else %}{{ copy.labels.current }}{% endif %}</span></div>
+  <div class="experience-content">
+    {% if item.concurrent %}<p class="concurrent-badge">{{ copy.experience.concurrent_note }}</p>{% endif %}
+    <h3>{{ item.role[lang] }}</h3>
+    {% unless item.group == 'fpt-software' %}<p class="employer-name">{{ item.employer }}</p>{% endunless %}
+    <p class="experience-type">{{ item.employment_type[lang] }} · {{ item.location[lang] }}</p>
+    <p>{{ item.summary[lang] }}</p>
+  </div>
+</div>

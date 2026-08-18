@@ -1,0 +1,6 @@
+{% assign copy = site.data.locales[page.lang] | default: site.data.locales.en %}
+<label class="theme-control theme-switch" title="{{ copy.accessibility.theme_toggle }}">
+  <span class="sr-only">{{ copy.accessibility.theme_toggle }}</span>
+  <input id="appearance-switch" type="checkbox" role="switch" aria-label="{{ copy.accessibility.theme_toggle }}">
+  <span class="theme-icon" aria-hidden="true">◐</span>
+</label>

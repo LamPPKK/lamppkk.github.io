@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% assign lang = page.lang %}{% assign copy = site.data.locales[lang] %}
+<header class="page-hero section-pad"><div class="shell narrow"><p class="eyebrow">{{ site.data.projects.size }} {{ copy.labels.case_studies }}</p><h1>{{ copy.projects.title }}</h1><p>{{ copy.projects.intro }}</p></div></header>
+<section class="section-pad"><div class="shell">
+  <div class="filter-bar" role="group" aria-label="{{ copy.labels.search }}"><button class="filter-button is-active" type="button" data-project-filter="all" aria-pressed="true">{{ copy.projects.filter_all }}</button><button class="filter-button" type="button" data-project-filter="delivery" aria-pressed="false">{{ copy.projects.filter_delivery }}</button><button class="filter-button" type="button" data-project-filter="mobile" aria-pressed="false">{{ copy.projects.filter_mobile }}</button><button class="filter-button" type="button" data-project-filter="security" aria-pressed="false">{{ copy.projects.filter_security }}</button><button class="filter-button" type="button" data-project-filter="open-source" aria-pressed="false">{{ copy.projects.filter_open }}</button></div>
+  <div class="project-grid" data-project-grid>{% for project in site.data.projects %}{% include project-card.html project=project lang=lang copy=copy %}{% endfor %}</div>
+</div></section>

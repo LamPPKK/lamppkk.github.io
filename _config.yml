@@ -1,0 +1,53 @@
+title: "Nguyễn Đức Tùng Lâm (Liam)"
+description: "Technical Project Manager, software operations leader, mobile engineer, and IT educator."
+url: "https://lamppkk.github.io"
+baseurl: ""
+remote_theme: "oinam/oinam-jekyll@7fd9e58cef66870615a2670abbed5a826d0b4808"
+lang: en
+timezone: Asia/Ho_Chi_Minh
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+author:
+  name: "Nguyễn Đức Tùng Lâm (Liam)"
+  url: "https://lamppkk.github.io"
+
+logo: "/assets/profile.jpg"
+social:
+  name: "Nguyễn Đức Tùng Lâm (Liam)"
+  links:
+    - "https://www.linkedin.com/in/lamndt/"
+    - "https://github.com/lamppkk"
+
+layout:
+  theme: default
+  theme_switch: true
+styles:
+  inline: true
+  font_family: mixed-serif
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: en
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - scripts
+  - vendor
+  - node_modules
+  - .bundle
+  - .jekyll-cache
+  - tmp

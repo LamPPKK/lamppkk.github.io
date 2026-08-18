@@ -1,0 +1,31 @@
+{% assign copy = site.data.locales[page.lang] | default: site.data.locales.en %}
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="{% if page.lang == 'en' %}/{% else %}/{{ page.lang }}/{% endif %}" aria-label="{{ copy.accessibility.home_label }}">
+      <span class="brand-mark" aria-hidden="true">NL</span>
+      <span><strong>Nguyễn Đức Tùng Lâm</strong><small>Liam · TPM</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">{{ copy.accessibility.open_menu }}</span>
+      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="{{ copy.accessibility.primary_navigation }}">
+      {% assign prefix = '' %}{% if page.lang != 'en' %}{% assign prefix = '/' | append: page.lang %}{% endif %}
+      <a href="{{ prefix }}/about/"{% if page.translation_key == 'about' %} aria-current="page"{% endif %}>{{ copy.nav.about }}</a>
+      <a href="{{ prefix }}/experience/"{% if page.translation_key == 'experience' %} aria-current="page"{% endif %}>{{ copy.nav.experience }}</a>
+      <a href="{{ prefix }}/projects/"{% if page.translation_key == 'projects' or page.project_id %} aria-current="page"{% endif %}>{{ copy.nav.projects }}</a>
+      <a href="{{ prefix }}/credentials/"{% if page.translation_key == 'credentials' %} aria-current="page"{% endif %}>{{ copy.nav.credentials }}</a>
+      <a href="{{ prefix }}/open-source/"{% if page.translation_key == 'open-source' %} aria-current="page"{% endif %}>{{ copy.nav.open_source }}</a>
+    </nav>
+    <div class="header-actions">
+      <div class="language-switcher" aria-label="{{ copy.accessibility.language_switcher }}">
+        {% assign siblings = site.pages | where: "translation_key", page.translation_key %}
+        {% for code in site.data.language_order %}
+          {% assign sibling = siblings | where: "lang", code | first %}
+          {% if sibling %}<a href="{{ sibling.url }}" lang="{{ code }}" hreflang="{{ code }}"{% if page.lang == code %} aria-current="page"{% endif %}>{{ code | upcase }}</a>{% endif %}
+        {% endfor %}
+      </div>
+      {% include appearance.html %}
+    </div>
+  </div>
+</header>

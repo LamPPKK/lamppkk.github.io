@@ -1,0 +1,58 @@
+id: nguyen-duc-tung-lam
+name: "Nguyễn Đức Tùng Lâm (Liam)"
+legal_name: "Nguyễn Đức Tùng Lâm"
+nickname: Liam
+location: {en: "Hanoi, Vietnam", vi: "Hà Nội, Việt Nam", ja: "ベトナム・ハノイ"}
+timezone: "UTC+07:00"
+email: "lamppkk@gmail.com"
+phone: "+84 91 291 46 21"
+snapshot_date: "2026-08-19"
+source:
+  primary: "https://www.linkedin.com/in/lamndt/"
+  imported_manually: true
+  note: "Manual professional-profile snapshot; no cookies, tokens, activity, followers, analytics, or job-seeking status stored."
+links:
+  linkedin: "https://www.linkedin.com/in/lamndt/"
+  github: "https://github.com/lamppkk"
+headline:
+  en: "Technical Project Manager · Software Operations Leader · IT Educator"
+  vi: "Quản lý Dự án Kỹ thuật · Lãnh đạo Vận hành Phần mềm · Giảng viên CNTT"
+  ja: "テクニカルプロジェクトマネージャー · ソフトウェア運用リーダー · IT講師"
+about:
+  en:
+    - "I am a Technical Project Manager who connects engineering decisions with business operations. My background spans mobile development, cybersecurity assessment, SaaS operations, and technical education."
+    - "At FPT Software and across concurrent engagements, I coordinate cross-functional teams, clarify scope, surface delivery risk, and turn complex work into transparent plans. More than five years of hands-on mobile engineering help me challenge estimates and support architecture decisions without losing sight of the customer outcome."
+  vi:
+    - "Tôi là Quản lý Dự án Kỹ thuật, kết nối quyết định kỹ thuật với vận hành kinh doanh. Nền tảng của tôi trải rộng từ phát triển mobile, đánh giá an ninh mạng, vận hành SaaS đến đào tạo kỹ thuật."
+    - "Tại FPT Software và các công việc đồng thời, tôi phối hợp nhóm đa chức năng, làm rõ phạm vi, nhận diện rủi ro và chuyển công việc phức tạp thành kế hoạch minh bạch. Hơn năm năm trực tiếp phát triển mobile giúp tôi phản biện ước lượng và hỗ trợ quyết định kiến trúc mà vẫn bám sát kết quả khách hàng."
+  ja:
+    - "私は、エンジニアリング上の判断と事業運用をつなぐテクニカルプロジェクトマネージャーです。モバイル開発、サイバーセキュリティ評価、SaaS運用、技術教育の経験があります。"
+    - "FPT Softwareおよび並行案件で、部門横断チームを調整し、スコープを明確化し、リスクを早期に示し、複雑な業務を透明な計画へ落とし込みます。5年以上のモバイル開発経験を生かし、顧客成果を見失わずに見積もりと設計判断を支援します。"
+education:
+  - id: utc-it-engineer
+    school: "University of Transport and Communications"
+    degree:
+      en: "Engineer’s Degree, Information Technology"
+      vi: "Bằng Kỹ sư, Công nghệ Thông tin"
+      ja: "工学士相当・情報技術"
+    start_date: "2017-08"
+    end_date: "2022-08"
+    source: cv
+services:
+  en: ["Technical project leadership", "Software operations", "Mobile delivery", "Security-assessment coordination", "Agile delivery coaching"]
+  vi: ["Quản lý dự án kỹ thuật", "Vận hành phần mềm", "Triển khai mobile", "Điều phối đánh giá bảo mật", "Huấn luyện triển khai Agile"]
+  ja: ["技術プロジェクト管理", "ソフトウェア運用", "モバイルデリバリー", "セキュリティ評価調整", "アジャイルデリバリー支援"]
+languages:
+  - id: vietnamese
+    name: {en: "Vietnamese", vi: "Tiếng Việt", ja: "ベトナム語"}
+    level: {en: "Native", vi: "Bản ngữ", ja: "母語"}
+  - id: english
+    name: {en: "English", vi: "Tiếng Anh", ja: "英語"}
+    level: {en: "Highly proficient · CEFR C1", vi: "Thành thạo cao · CEFR C1", ja: "上級 · CEFR C1"}
+  - id: japanese
+    name: {en: "Japanese", vi: "Tiếng Nhật", ja: "日本語"}
+    level: {en: "Basic communication · JLPT N5 foundation", vi: "Giao tiếp cơ bản · nền tảng JLPT N5", ja: "基礎的なコミュニケーション · JLPT N5相当"}
+principles:
+  en: ["Make risk visible before it becomes delay.", "Translate business intent into testable delivery outcomes.", "Keep technical decisions legible to every stakeholder."]
+  vi: ["Làm rõ rủi ro trước khi nó trở thành chậm trễ.", "Chuyển mục tiêu kinh doanh thành kết quả triển khai có thể kiểm chứng.", "Giúp mọi bên liên quan hiểu được quyết định kỹ thuật."]
+  ja: ["遅延になる前にリスクを可視化する。", "事業意図を検証可能なデリバリー成果へ変換する。", "技術判断を全関係者に理解できる形で共有する。"]

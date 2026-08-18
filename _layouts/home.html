@@ -1,0 +1,69 @@
+---
+layout: default
+---
+{% assign lang = page.lang %}
+{% assign copy = site.data.locales[lang] %}
+{% assign profile = site.data.profile %}
+<section class="hero section-pad">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ copy.home.kicker }}</p>
+      <h1>{{ profile.name }}</h1>
+      <p class="hero-headline">{{ profile.headline[lang] }}</p>
+      <p class="hero-intro">{{ copy.home.intro }}</p>
+      <p class="hero-proof">{{ copy.home.proof }}</p>
+      <div class="button-row">
+        <a class="button button-primary" href="{% if lang == 'en' %}/projects/{% else %}/{{ lang }}/projects/{% endif %}">{{ copy.actions.view_projects }}</a>
+        <a class="button button-secondary" href="{{ '/assets/cv/Nguyen-Duc-Tung-Lam-CV.pdf' | relative_url }}">{{ copy.actions.open_cv }}</a>
+        <a class="text-link" href="{{ '/assets/cv/Nguyen-Duc-Tung-Lam-CV.pdf' | relative_url }}" download>{{ copy.actions.download_cv }} <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+    <figure class="portrait-frame">
+      <img src="{{ '/assets/profile.jpg' | relative_url }}" width="720" height="720" alt="{{ profile.name }}" fetchpriority="high">
+      <figcaption><span>{{ profile.location[lang] }}</span><span>{{ profile.timezone }}</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section-pad section-ink" aria-labelledby="current-title">
+  <div class="shell">
+    <div class="section-heading split-heading">
+      <div><p class="eyebrow">01</p><h2 id="current-title">{{ copy.home.current_role }}</h2></div>
+      <p>{{ profile.about[lang][0] }}</p>
+    </div>
+    <div class="current-grid">
+      {% for item in site.data.experience %}{% if item.end_date == nil %}
+      <article class="current-card">
+        <span class="status-dot" aria-hidden="true"></span>
+        <p>{{ item.employment_type[lang] }}{% if item.concurrent %} · {{ copy.labels.concurrent }}{% endif %}</p>
+        <h3>{{ item.role[lang] }}</h3>
+        <strong>{{ item.employer }}</strong>
+        <p>{{ item.summary[lang] }}</p>
+      </article>
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" aria-labelledby="featured-title">
+  <div class="shell">
+    <div class="section-heading split-heading">
+      <div><p class="eyebrow">02</p><h2 id="featured-title">{{ copy.home.featured_projects }}</h2></div>
+      <a class="text-link" href="{% if lang == 'en' %}/projects/{% else %}/{{ lang }}/projects/{% endif %}">{{ copy.actions.view_all }} <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="project-grid project-grid-featured">
+      {% for project in site.data.projects %}{% if project.featured %}{% include project-card.html project=project lang=lang copy=copy %}{% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-pad section-tint" aria-labelledby="skills-title">
+  <div class="shell">
+    <div class="section-heading"><p class="eyebrow">03</p><h2 id="skills-title">{{ copy.home.core_skills }}</h2></div>
+    <div class="skill-grid">
+      {% for group in site.data.skills %}{% if group.featured %}
+      <article class="skill-card"><h3>{{ group.name[lang] }}</h3><ul class="tag-list">{% for item in group.items[lang] %}<li>{{ item }}</li>{% endfor %}</ul></article>
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>

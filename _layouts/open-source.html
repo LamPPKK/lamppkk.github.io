@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% assign lang = page.lang %}{% assign copy = site.data.locales[lang] %}
+<header class="page-hero section-pad"><div class="shell narrow"><p class="eyebrow"><span data-repo-total>{{ site.data.github_repositories.size }}</span> {{ copy.labels.repositories }}</p><h1>{{ copy.open_source.title }}</h1><p>{{ copy.open_source.intro }}</p></div></header>
+<section class="section-pad"><div class="shell">
+  <div class="featured-repos"><p class="eyebrow">{{ copy.open_source.featured_note }}</p><div class="tag-list">{% for project in site.data.projects %}{% if project.repo_names %}{% for repo in project.repo_names %}<a href="https://github.com/lamppkk/{{ repo }}">{{ repo }}</a>{% endfor %}{% endif %}{% endfor %}</div></div>
+  <div class="repo-controls"><label class="search-control"><span class="sr-only">{{ copy.open_source.search_placeholder }}</span><span aria-hidden="true">⌕</span><input type="search" data-repo-search placeholder="{{ copy.open_source.search_placeholder }}" autocomplete="off"></label><div class="filter-bar" role="group" aria-label="{{ copy.labels.search }}"><button class="filter-button is-active" data-repo-filter="all" type="button" aria-pressed="true">{{ copy.labels.all }}</button><button class="filter-button" data-repo-filter="original" type="button" aria-pressed="false">{{ copy.labels.original }}</button><button class="filter-button" data-repo-filter="fork" type="button" aria-pressed="false">{{ copy.labels.fork }}</button><button class="filter-button" data-repo-filter="archived" type="button" aria-pressed="false">{{ copy.labels.archived }}</button></div></div>
+  <p class="repo-count" aria-live="polite"><span data-repo-showing>0</span> / <span data-repo-count>{{ site.data.github_repositories.size }}</span></p>
+  <div class="repo-grid" data-repo-grid></div><p class="empty-state" data-repo-empty hidden>{{ copy.open_source.empty }}</p><button class="button button-secondary load-more" data-repo-more type="button">{{ copy.open_source.load_more }}</button>
+</div></section>
+<script id="repository-data" type="application/json">{{ site.data.github_repositories | jsonify }}</script>
+<script id="repository-copy" type="application/json">{{ copy.labels | jsonify }}</script>

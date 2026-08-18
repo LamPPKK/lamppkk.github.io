@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% assign lang = page.lang %}{% assign copy = site.data.locales[lang] %}
+<header class="page-hero section-pad"><div class="shell narrow"><p class="eyebrow">2019 — {{ copy.labels.current }}</p><h1>{{ copy.experience.title }}</h1><p>{{ copy.experience.intro }}</p></div></header>
+<section class="section-pad"><div class="shell experience-shell">
+  <article class="experience-group">
+    <div class="experience-employer"><span class="employer-mark">F</span><div><h2>FPT Software</h2><p>{{ copy.experience.progression }} · 2021 — {{ copy.labels.current }}</p></div></div>
+    <div class="progression-line">
+      {% assign fpt_roles = site.data.experience | where: "group", "fpt-software" | reverse %}
+      {% for item in fpt_roles %}{% include experience-item.html item=item lang=lang copy=copy %}{% endfor %}
+    </div>
+  </article>
+  {% for item in site.data.experience %}{% unless item.group == 'fpt-software' %}
+  <article class="experience-group single-role">{% include experience-item.html item=item lang=lang copy=copy %}</article>
+  {% endunless %}{% endfor %}
+</div></section>

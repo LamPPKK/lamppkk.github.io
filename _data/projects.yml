@@ -1,0 +1,275 @@
+- id: enterprise-mobile-security
+  slug: enterprise-mobile-security
+  category: security
+  featured: true
+  privacy: private-anonymized
+  period: "2025-07 — 2026-03"
+  experience_ids: [fpt-software-associate-pm-2025-06]
+  title: {en: "Enterprise Mobile Security Assessment Program", vi: "Chương trình Đánh giá Bảo mật Mobile Doanh nghiệp", ja: "企業向けモバイルセキュリティ評価プログラム"}
+  role: {en: "Project Manager", vi: "Quản lý Dự án", ja: "プロジェクトマネージャー"}
+  challenge: {en: "Coordinate repeatable security assessments for a portfolio of iOS, Android, and Flutter applications while keeping risk, evidence, and remediation visible.", vi: "Điều phối đánh giá bảo mật lặp lại cho danh mục ứng dụng iOS, Android và Flutter, đồng thời minh bạch rủi ro, bằng chứng và khắc phục.", ja: "iOS・Android・Flutterアプリ群の反復可能な評価を調整し、リスク、証跡、是正状況を可視化すること。"}
+  contribution:
+    en: ["Planned OWASP-aligned assessment cycles and coordinated security engineers with application teams.", "Tracked vulnerability state, reporting, remediation ownership, and verification through delivery.", "Translated technical findings into prioritized actions for product stakeholders."]
+    vi: ["Lập kế hoạch chu kỳ đánh giá theo OWASP, điều phối kỹ sư bảo mật với nhóm ứng dụng.", "Theo dõi trạng thái lỗ hổng, báo cáo, trách nhiệm khắc phục và xác minh xuyên suốt triển khai.", "Chuyển phát hiện kỹ thuật thành hành động ưu tiên cho bên sản phẩm."]
+    ja: ["OWASP準拠の評価サイクルを計画し、セキュリティ技術者とアプリチームを調整。", "脆弱性、報告、是正責任、再検証をデリバリー全体で追跡。", "技術的な指摘を製品関係者向けの優先アクションへ変換。"]
+  technologies: ["OWASP MASVS", "Burp Suite", "NightWolf", "iOS", "Android", "Flutter"]
+  source: [cv, professional-portfolio]
+  links: []
+- id: retail-security
+  slug: retail-operations-security
+  category: security
+  privacy: private-anonymized
+  period: "2025-11 — 2026-02"
+  experience_ids: [fpt-software-associate-pm-2025-06]
+  title: {en: "Retail Operations Security Assessment", vi: "Đánh giá Bảo mật Vận hành Bán lẻ", ja: "小売運用セキュリティ評価"}
+  role: {en: "Project Manager", vi: "Quản lý Dự án", ja: "プロジェクトマネージャー"}
+  challenge: {en: "Run an application-security review against a fixed operational window without disrupting active business services.", vi: "Thực hiện rà soát bảo mật ứng dụng trong khung vận hành cố định mà không gián đoạn dịch vụ kinh doanh đang hoạt động.", ja: "稼働中の業務サービスを止めず、限られた運用期間でアプリケーション評価を実施すること。"}
+  contribution:
+    en: ["Defined assessment scope and evidence requirements with stakeholders.", "Sequenced testing, triage, reporting, and remediation follow-up against milestones."]
+    vi: ["Thống nhất phạm vi đánh giá và yêu cầu bằng chứng với các bên liên quan.", "Sắp xếp kiểm thử, phân loại, báo cáo và theo dõi khắc phục theo cột mốc."]
+    ja: ["関係者と評価範囲・証跡要件を定義。", "テスト、トリアージ、報告、是正フォローをマイルストーンに沿って編成。"]
+  technologies: ["Application security", "Risk triage", "Remediation tracking"]
+  source: [cv]
+  links: []
+- id: japanese-banking-security
+  slug: japanese-banking-security
+  category: security
+  featured: true
+  privacy: private-anonymized
+  period: "2025-11 — 2025-12"
+  experience_ids: [fpt-software-associate-pm-2025-06]
+  title: {en: "Japanese Banking Security Audit", vi: "Kiểm toán Bảo mật Ngân hàng Nhật Bản", ja: "日本向け銀行セキュリティ監査"}
+  role: {en: "Project Manager", vi: "Quản lý Dự án", ja: "プロジェクトマネージャー"}
+  challenge: {en: "Align a high-compliance mobile audit across language, time-zone, and financial-security constraints.", vi: "Đồng bộ kiểm toán mobile yêu cầu tuân thủ cao qua rào cản ngôn ngữ, múi giờ và bảo mật tài chính.", ja: "言語・時差・金融セキュリティ要件をまたぎ、高いコンプライアンスが必要なモバイル監査を整合させること。"}
+  contribution:
+    en: ["Established a concise delivery cadence for international stakeholders.", "Maintained traceability from findings through risk acceptance or verified remediation."]
+    vi: ["Thiết lập nhịp triển khai ngắn gọn cho các bên quốc tế.", "Duy trì truy vết từ phát hiện đến chấp nhận rủi ro hoặc xác minh khắc phục."]
+    ja: ["国際関係者向けに明確なデリバリーリズムを設計。", "指摘からリスク受容または是正確認まで追跡可能性を維持。"]
+  technologies: ["Mobile security", "Audit governance", "OWASP", "Bilingual coordination"]
+  source: [cv]
+  links: []
+- id: private-llm-security
+  slug: private-llm-security
+  category: security
+  privacy: private-anonymized
+  period: "2025-11"
+  experience_ids: [fpt-software-associate-pm-2025-06]
+  title: {en: "Private LLM Security Review", vi: "Rà soát Bảo mật LLM Nội bộ", ja: "プライベートLLMセキュリティレビュー"}
+  role: {en: "Project Manager", vi: "Quản lý Dự án", ja: "プロジェクトマネージャー"}
+  challenge: {en: "Review a private generative-AI deployment with strict data-boundary and short-cycle delivery constraints.", vi: "Rà soát hệ thống AI tạo sinh riêng tư với ràng buộc nghiêm ngặt về biên dữ liệu và chu kỳ triển khai ngắn.", ja: "厳格なデータ境界と短納期条件のあるプライベート生成AI環境を評価すること。"}
+  contribution:
+    en: ["Converted threat hypotheses into a time-boxed assessment plan.", "Coordinated evidence review and actionable remediation reporting."]
+    vi: ["Chuyển giả thuyết đe dọa thành kế hoạch đánh giá có giới hạn thời gian.", "Điều phối rà soát bằng chứng và báo cáo khắc phục có thể hành động."]
+    ja: ["脅威仮説をタイムボックス化した評価計画へ変換。", "証跡レビューと実行可能な是正報告を調整。"]
+  technologies: ["LLM security", "Threat modeling", "Security reporting"]
+  source: [cv]
+  links: []
+- id: trading-security
+  slug: financial-trading-security
+  category: security
+  privacy: private-anonymized
+  period: "2025-10"
+  experience_ids: [fpt-software-associate-pm-2025-06]
+  title: {en: "Financial Trading Security Assessment", vi: "Đánh giá Bảo mật Giao dịch Tài chính", ja: "金融取引セキュリティ評価"}
+  role: {en: "Project Manager", vi: "Quản lý Dự án", ja: "プロジェクトマネージャー"}
+  challenge: {en: "Assess sensitive transaction workflows while protecting confidentiality and preserving an auditable decision trail.", vi: "Đánh giá luồng giao dịch nhạy cảm, bảo vệ tính bảo mật và duy trì dấu vết quyết định có thể kiểm toán.", ja: "機密性を保ちながら重要取引フローを評価し、監査可能な判断履歴を残すこと。"}
+  contribution:
+    en: ["Coordinated assessment scope, access readiness, and reporting checkpoints.", "Closed the loop between findings, engineering owners, and verification."]
+    vi: ["Điều phối phạm vi, mức sẵn sàng truy cập và điểm kiểm tra báo cáo.", "Kết nối phát hiện, chủ sở hữu kỹ thuật và bước xác minh."]
+    ja: ["評価範囲、アクセス準備、報告チェックポイントを調整。", "指摘、技術責任者、再検証のループを完結。"]
+  technologies: ["Application security", "Financial systems", "Risk governance"]
+  source: [cv]
+  links: []
+- id: multi-market-mobile-banking
+  slug: multi-market-mobile-banking
+  category: mobile
+  featured: true
+  privacy: private-anonymized
+  period: "2024-02 — 2025-06"
+  experience_ids: [fpt-software-ios-developer-2021-08]
+  title: {en: "Multi-Market Mobile Banking", vi: "Ngân hàng Mobile Đa Thị trường", ja: "マルチマーケット・モバイルバンキング"}
+  role: {en: "Senior iOS Engineer", vi: "Kỹ sư iOS cấp cao", ja: "シニアiOSエンジニア"}
+  challenge: {en: "Deliver shared banking capabilities across market variants without sacrificing local compliance or release stability.", vi: "Triển khai năng lực ngân hàng dùng chung cho nhiều biến thể thị trường mà vẫn giữ tuân thủ địa phương và ổn định phát hành.", ja: "地域ごとのコンプライアンスとリリース安定性を保ちながら、複数市場に共通機能を提供すること。"}
+  contribution:
+    en: ["Implemented and reviewed reusable iOS modules across market variants.", "Collaborated with product, backend, QA, and release teams to control integration risk.", "Improved maintainability through architecture review and testable boundaries."]
+    vi: ["Phát triển và rà soát module iOS tái sử dụng cho các biến thể thị trường.", "Phối hợp sản phẩm, backend, QA và phát hành để kiểm soát rủi ro tích hợp.", "Cải thiện khả năng bảo trì qua rà soát kiến trúc và ranh giới có thể kiểm thử."]
+    ja: ["市場バリエーション間で再利用可能なiOSモジュールを実装・レビュー。", "プロダクト、バックエンド、QA、リリースチームと連携し統合リスクを管理。", "設計レビューとテスト可能な境界で保守性を向上。"]
+  technologies: ["Swift", "UIKit", "SwiftUI", "REST APIs", "MVVM", "XCTest"]
+  source: [cv]
+  links: []
+- id: mobility-super-app
+  slug: mobility-super-app
+  category: mobile
+  privacy: private-anonymized
+  period: "2022-12 — 2024-01"
+  experience_ids: [fpt-software-ios-developer-2021-08]
+  title: {en: "Mobility Super App", vi: "Siêu ứng dụng Di chuyển", ja: "モビリティ・スーパーアプリ"}
+  role: {en: "iOS Engineer", vi: "Kỹ sư iOS", ja: "iOSエンジニア"}
+  challenge: {en: "Evolve multiple delivery variants within a high-traffic mobility product family.", vi: "Phát triển nhiều biến thể triển khai trong một nhóm sản phẩm di chuyển có lưu lượng lớn.", ja: "高トラフィックのモビリティ製品群で複数のデリバリーバリエーションを進化させること。"}
+  contribution:
+    en: ["Delivered modular iOS features across two program variants.", "Resolved integration issues and supported stable release cycles."]
+    vi: ["Triển khai tính năng iOS module hóa cho hai biến thể chương trình.", "Xử lý vấn đề tích hợp và hỗ trợ chu kỳ phát hành ổn định."]
+    ja: ["二つのプログラムバリエーションにモジュール型iOS機能を提供。", "統合課題を解決し、安定したリリースを支援。"]
+  technologies: ["Swift", "UIKit", "MapKit", "REST APIs", "Git"]
+  variants: ["2023", "2024"]
+  source: [cv]
+  links: []
+- id: airport-operations-mobile
+  slug: airport-operations-mobile
+  category: mobile
+  privacy: private-anonymized
+  period: "2022-04 — 2023-02"
+  experience_ids: [fpt-software-ios-developer-2021-08]
+  title: {en: "Airport Operations Mobile App", vi: "Ứng dụng Mobile Vận hành Sân bay", ja: "空港運用モバイルアプリ"}
+  role: {en: "iOS Engineer", vi: "Kỹ sư iOS", ja: "iOSエンジニア"}
+  challenge: {en: "Support operationally critical workflows with clear state, reliable synchronization, and usable mobile interactions.", vi: "Hỗ trợ luồng vận hành trọng yếu với trạng thái rõ ràng, đồng bộ tin cậy và tương tác mobile dễ dùng.", ja: "重要な運用フローを、明確な状態、信頼できる同期、使いやすいモバイル操作で支えること。"}
+  contribution:
+    en: ["Built workflow-focused iOS screens and data integrations.", "Worked with QA and domain stakeholders to reduce ambiguity in edge cases."]
+    vi: ["Xây dựng màn hình iOS tập trung vào luồng công việc và tích hợp dữ liệu.", "Phối hợp QA và chuyên gia nghiệp vụ để giảm mơ hồ ở tình huống biên."]
+    ja: ["業務フロー中心のiOS画面とデータ連携を実装。", "QA・業務関係者と連携し、例外ケースの曖昧さを削減。"]
+  technologies: ["Swift", "UIKit", "REST APIs", "Core Data"]
+  source: [cv]
+  links: []
+- id: academic-mobile-portal
+  slug: academic-mobile-portal
+  category: mobile
+  privacy: private-anonymized
+  period: "2022-04 — 2023-01"
+  experience_ids: [fpt-software-ios-developer-2021-08]
+  title: {en: "Academic Mobile Portal", vi: "Cổng Mobile Học vụ", ja: "教育モバイルポータル"}
+  role: {en: "Mobile Developer & Team Lead", vi: "Lập trình viên Mobile & Trưởng nhóm", ja: "モバイル開発者・チームリード"}
+  challenge: {en: "Make academic information and routine student workflows accessible from mobile devices.", vi: "Đưa thông tin học vụ và các quy trình thường ngày của sinh viên lên thiết bị mobile.", ja: "学務情報と学生の日常手続きをモバイルから利用可能にすること。"}
+  contribution:
+    en: ["Built timetable, reminder, course registration, grade, exam, campus map, and student-sports workflows.", "Supported integration, testing, and delivery documentation."]
+    vi: ["Xây dựng các luồng thời khóa biểu, nhắc việc, đăng ký môn, điểm, kỳ thi, bản đồ cơ sở và thể thao sinh viên.", "Hỗ trợ tích hợp, kiểm thử và tài liệu triển khai."]
+    ja: ["時間割、リマインダー、履修登録、成績、試験、キャンパスマップ、学生スポーツの機能を構築。", "統合、テスト、デリバリー文書を支援。"]
+  technologies: ["C#", ".NET", "Xamarin", "MAUI", "REST APIs", "Push notifications"]
+  source: [cv]
+  links: []
+- id: automotive-service-crm
+  slug: automotive-service-crm
+  category: mobile
+  privacy: private-anonymized
+  period: "2021-12 — 2022-04"
+  experience_ids: [fpt-software-ios-developer-2021-08]
+  title: {en: "Automotive Service CRM", vi: "CRM Dịch vụ Ô tô", ja: "自動車サービスCRM"}
+  role: {en: "iOS Engineer", vi: "Kỹ sư iOS", ja: "iOSエンジニア"}
+  challenge: {en: "Translate service and customer-management processes into reliable field workflows.", vi: "Chuyển quy trình dịch vụ và quản lý khách hàng thành luồng làm việc tin cậy ngoài hiện trường.", ja: "サービス・顧客管理プロセスを信頼できる現場ワークフローへ変換すること。"}
+  contribution:
+    en: ["Built CRM-oriented mobile interfaces and API integrations.", "Diagnosed defects and stabilized delivery for operational users."]
+    vi: ["Xây dựng giao diện mobile định hướng CRM và tích hợp API.", "Chẩn đoán lỗi và ổn định sản phẩm cho người dùng vận hành."]
+    ja: ["CRM向けモバイルUIとAPI連携を実装。", "不具合を診断し、業務ユーザー向けデリバリーを安定化。"]
+  technologies: ["Swift", "UIKit", "REST APIs", "Core Data"]
+  source: [cv]
+  links: []
+- id: luxury-ar-commerce
+  slug: luxury-ar-commerce
+  category: mobile
+  featured: true
+  privacy: private-anonymized
+  period: "2021-08 — 2022-05"
+  experience_ids: [fpt-software-ios-developer-2021-08, fpt-software-innovation-mobile-engineer-2022-03]
+  title: {en: "Luxury AR Commerce Experience", vi: "Trải nghiệm Thương mại AR Cao cấp", ja: "ラグジュアリーARコマース体験"}
+  role: {en: "Mobile Engineer", vi: "Kỹ sư Mobile", ja: "モバイルエンジニア"}
+  challenge: {en: "Make high-value products explorable through an engaging augmented-reality shopping experience.", vi: "Giúp khách hàng khám phá sản phẩm giá trị cao qua trải nghiệm mua sắm thực tế tăng cường hấp dẫn.", ja: "高価格帯商品を魅力的なARショッピング体験で探索できるようにすること。"}
+  contribution:
+    en: ["Prototyped and delivered AR product visualization on iOS.", "Integrated product media, camera interaction, and commerce-oriented journeys."]
+    vi: ["Tạo nguyên mẫu và triển khai trực quan hóa sản phẩm AR trên iOS.", "Tích hợp nội dung sản phẩm, tương tác camera và hành trình thương mại."]
+    ja: ["iOSでAR商品可視化を試作・提供。", "商品メディア、カメラ操作、購買導線を統合。"]
+  technologies: ["Swift", "ARKit", "RealityKit", "AVFoundation", "UIKit"]
+  source: [cv]
+  links: []
+- id: creative-operations-platform
+  slug: creative-operations-platform
+  category: delivery
+  featured: true
+  privacy: private-anonymized
+  period: {en: "2024-06 — Present", vi: "2024-06 — Hiện tại", ja: "2024-06 — 現在"}
+  experience_ids: [nodesign-operations-pm-2024-06]
+  title: {en: "Creative Operations Platform", vi: "Nền tảng Vận hành Dịch vụ Sáng tạo", ja: "クリエイティブ運用プラットフォーム"}
+  role: {en: "Operations Project Manager", vi: "Quản lý Dự án Vận hành", ja: "運用プロジェクトマネージャー"}
+  challenge: {en: "Connect booking, production tasks, client status, and resource planning into one service-delivery workflow.", vi: "Kết nối đặt lịch, công việc sản xuất, trạng thái khách hàng và kế hoạch nguồn lực thành một quy trình dịch vụ thống nhất.", ja: "予約、制作タスク、顧客状況、要員計画を一つのサービスデリバリーフローへ統合すること。"}
+  contribution:
+    en: ["Led discovery and translated creative-service operations into product requirements.", "Coordinated web, mobile, backend, design, and QA delivery.", "Designed task assignment, booking, status reporting, and resource-governance workflows."]
+    vi: ["Dẫn dắt khám phá và chuyển vận hành dịch vụ sáng tạo thành yêu cầu sản phẩm.", "Điều phối triển khai web, mobile, backend, thiết kế và QA.", "Thiết kế luồng giao việc, đặt lịch, báo cáo trạng thái và quản trị nguồn lực."]
+    ja: ["ディスカバリーを主導し、クリエイティブ業務を製品要件へ変換。", "Web、モバイル、バックエンド、デザイン、QAのデリバリーを調整。", "タスク割当、予約、状況報告、要員ガバナンスを設計。"]
+  technologies: ["React", "React Native", "PostgreSQL", "Firebase", "Agile/Scrum"]
+  source: [cv]
+  links: []
+- id: xanhtab
+  slug: xanhtab
+  category: open-source
+  featured: true
+  privacy: public
+  period: {en: "2026 — Present", vi: "2026 — Hiện tại", ja: "2026 — 現在"}
+  experience_ids: []
+  title: {en: "XanhTab", vi: "XanhTab", ja: "XanhTab"}
+  role: {en: "Creator & maintainer", vi: "Tác giả & bảo trì", ja: "作者・メンテナー"}
+  challenge: {en: "Explore a lean browser-shell architecture that combines a WPE WebKit runtime with a Rust/Axum web interface.", vi: "Khám phá kiến trúc browser shell gọn nhẹ kết hợp WPE WebKit với giao diện web Rust/Axum.", ja: "WPE WebKitランタイムとRust/Axum Web UIを組み合わせた軽量ブラウザシェルを探求。"}
+  contribution:
+    en: ["Designed the repository architecture and documented the experimental runtime.", "Connected browser-process concerns with a web-managed interface."]
+    vi: ["Thiết kế kiến trúc kho mã và tài liệu hóa runtime thử nghiệm.", "Kết nối mối quan tâm của tiến trình trình duyệt với giao diện quản lý qua web."]
+    ja: ["リポジトリ構成を設計し、実験的ランタイムを文書化。", "ブラウザプロセスとWeb管理UIを接続。"]
+  technologies: ["Rust", "Axum", "WPE WebKit", "Linux"]
+  source: [github]
+  repo_names: [XanhTab]
+  links: [{type: github, url: "https://github.com/lamppkk/XanhTab"}]
+- id: fireball-browser-systems
+  slug: fireball-browser-systems
+  category: open-source
+  featured: true
+  privacy: public
+  period: {en: "2026 — Present", vi: "2026 — Hiện tại", ja: "2026 — 現在"}
+  experience_ids: []
+  title: {en: "Fireball Browser Systems", vi: "Hệ thống Trình duyệt Fireball", ja: "Fireballブラウザシステム"}
+  role: {en: "Creator & maintainer", vi: "Tác giả & bảo trì", ja: "作者・メンテナー"}
+  challenge: {en: "Compare browser-engine integration strategies across native Apple, containerized, and Blink-oriented experiments.", vi: "So sánh chiến lược tích hợp engine trình duyệt trên Apple native, container và thử nghiệm hướng Blink.", ja: "Appleネイティブ、コンテナ、Blink志向の実験でブラウザエンジン統合方式を比較。"}
+  contribution:
+    en: ["Grouped three implementation variants under one research case study.", "Documented build boundaries and kept engine-specific experiments independently usable."]
+    vi: ["Gộp ba biến thể triển khai thành một case study nghiên cứu.", "Tài liệu hóa ranh giới build và giữ từng thử nghiệm engine có thể dùng độc lập."]
+    ja: ["三つの実装バリエーションを一つの研究事例へ統合。", "ビルド境界を文書化し、各エンジン実験を独立利用可能に維持。"]
+  technologies: ["Swift", "WebKit", "Docker", "TypeScript", "Python", "C++"]
+  source: [github]
+  repo_names: [fireball-webkit, fireball-docker, fireball-blink]
+  links:
+    - {type: github, url: "https://github.com/lamppkk/fireball-webkit"}
+    - {type: github, url: "https://github.com/lamppkk/fireball-docker"}
+    - {type: github, url: "https://github.com/lamppkk/fireball-blink"}
+- id: smart-movie
+  slug: smart-movie
+  category: open-source
+  privacy: public
+  period: {en: "Open source", vi: "Mã nguồn mở", ja: "オープンソース"}
+  experience_ids: []
+  title: {en: "Smart Movie", vi: "Smart Movie", ja: "Smart Movie"}
+  role: {en: "Mobile developer", vi: "Lập trình viên Mobile", ja: "モバイル開発者"}
+  challenge: {en: "Maintain a concept across native iOS and Android implementations without duplicating it as separate portfolio projects.", vi: "Duy trì một ý tưởng trên hai bản native iOS và Android mà không lặp thành hai dự án portfolio.", ja: "iOS・Androidネイティブ実装を別案件として重複させず、一つのコンセプトとして維持。"}
+  contribution:
+    en: ["Built native Swift and Kotlin variants.", "Consolidated both repositories into one product-family case study."]
+    vi: ["Xây dựng biến thể native bằng Swift và Kotlin.", "Hợp nhất hai kho mã thành một case study nhóm sản phẩm."]
+    ja: ["Swift・Kotlinのネイティブ版を開発。", "二つのリポジトリを一つの製品群事例へ統合。"]
+  technologies: ["Swift", "Kotlin", "iOS", "Android"]
+  source: [github]
+  repo_names: [SmartMovie, Android.Smart.Movie]
+  links:
+    - {type: github, url: "https://github.com/lamppkk/SmartMovie"}
+    - {type: github, url: "https://github.com/lamppkk/Android.Smart.Movie"}
+- id: waydroid-wsl
+  slug: waydroid-wsl
+  category: open-source
+  privacy: public
+  period: {en: "Open source", vi: "Mã nguồn mở", ja: "オープンソース"}
+  experience_ids: []
+  title: {en: "Waydroid on WSL", vi: "Waydroid trên WSL", ja: "WSL上のWaydroid"}
+  role: {en: "Maintainer", vi: "Người bảo trì", ja: "メンテナー"}
+  challenge: {en: "Package and document Android-container experiments for Windows Subsystem for Linux environments.", vi: "Đóng gói và tài liệu hóa thử nghiệm Android container cho môi trường Windows Subsystem for Linux.", ja: "WSL環境向けAndroidコンテナ実験をパッケージ化・文書化。"}
+  contribution:
+    en: ["Maintained WSL and WSLg-oriented variants as one coherent project family.", "Captured setup assumptions and compatibility constraints."]
+    vi: ["Duy trì các biến thể WSL và WSLg trong một nhóm dự án thống nhất.", "Ghi lại giả định thiết lập và ràng buộc tương thích."]
+    ja: ["WSL・WSLg向けバリエーションを一つの製品群として維持。", "セットアップ前提と互換性制約を記録。"]
+  technologies: ["Shell", "WSL", "Waydroid", "Linux"]
+  source: [github]
+  repo_names: [Waydroid-WSL, Waydroid-WSLg]
+  links:
+    - {type: github, url: "https://github.com/lamppkk/Waydroid-WSL"}
+    - {type: github, url: "https://github.com/lamppkk/Waydroid-WSLg"}

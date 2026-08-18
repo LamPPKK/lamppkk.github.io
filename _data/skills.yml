@@ -1,0 +1,42 @@
+- id: project-delivery
+  featured: true
+  name: {en: "Project delivery", vi: "Triển khai dự án", ja: "プロジェクトデリバリー"}
+  items:
+    en: ["Agile/Scrum", "Waterfall", "SDLC", "Sprint planning", "Risk management", "Resource allocation", "Stakeholder management"]
+    vi: ["Agile/Scrum", "Waterfall", "SDLC", "Lập kế hoạch sprint", "Quản lý rủi ro", "Phân bổ nguồn lực", "Quản lý bên liên quan"]
+    ja: ["Agile/Scrum", "Waterfall", "SDLC", "スプリント計画", "リスク管理", "リソース配分", "ステークホルダー管理"]
+- id: operations
+  featured: true
+  name: {en: "Operations", vi: "Vận hành", ja: "運用"}
+  items:
+    en: ["Process design", "SaaS operations", "Workflow optimization", "Jira", "Confluence", "Trello", "GitLab", "Microsoft Planner"]
+    vi: ["Thiết kế quy trình", "Vận hành SaaS", "Tối ưu quy trình", "Jira", "Confluence", "Trello", "GitLab", "Microsoft Planner"]
+    ja: ["プロセス設計", "SaaS運用", "ワークフロー最適化", "Jira", "Confluence", "Trello", "GitLab", "Microsoft Planner"]
+- id: mobile
+  featured: true
+  name: {en: "Mobile engineering", vi: "Kỹ thuật mobile", ja: "モバイル開発"}
+  items:
+    en: ["Swift", "SwiftUI", "UIKit", "Objective-C", "Kotlin", "Java", "Flutter", "React Native", "Xamarin", "MAUI", "ARKit", "MapKit"]
+    vi: ["Swift", "SwiftUI", "UIKit", "Objective-C", "Kotlin", "Java", "Flutter", "React Native", "Xamarin", "MAUI", "ARKit", "MapKit"]
+    ja: ["Swift", "SwiftUI", "UIKit", "Objective-C", "Kotlin", "Java", "Flutter", "React Native", "Xamarin", "MAUI", "ARKit", "MapKit"]
+- id: security
+  featured: true
+  name: {en: "Security delivery", vi: "Triển khai bảo mật", ja: "セキュリティデリバリー"}
+  items:
+    en: ["OWASP MASVS", "Mobile penetration testing", "Vulnerability triage", "Burp Suite", "Remediation planning", "Security reporting"]
+    vi: ["OWASP MASVS", "Kiểm thử xâm nhập mobile", "Phân loại lỗ hổng", "Burp Suite", "Lập kế hoạch khắc phục", "Báo cáo bảo mật"]
+    ja: ["OWASP MASVS", "モバイル侵入テスト", "脆弱性トリアージ", "Burp Suite", "是正計画", "セキュリティ報告"]
+- id: architecture-data
+  featured: false
+  name: {en: "Architecture & data", vi: "Kiến trúc & dữ liệu", ja: "アーキテクチャとデータ"}
+  items:
+    en: ["REST APIs", "MVC", "MVP", "MVVM", "Core Data", "PostgreSQL", "Microsoft SQL Server", "MySQL", "Firebase"]
+    vi: ["REST APIs", "MVC", "MVP", "MVVM", "Core Data", "PostgreSQL", "Microsoft SQL Server", "MySQL", "Firebase"]
+    ja: ["REST APIs", "MVC", "MVP", "MVVM", "Core Data", "PostgreSQL", "Microsoft SQL Server", "MySQL", "Firebase"]
+- id: quality-tooling
+  featured: false
+  name: {en: "Quality & tooling", vi: "Chất lượng & công cụ", ja: "品質とツール"}
+  items:
+    en: ["Git", "SVN", "XCTest", "Unit testing", "Selenium", "Firebase diagnostics"]
+    vi: ["Git", "SVN", "XCTest", "Kiểm thử đơn vị", "Selenium", "Chẩn đoán Firebase"]
+    ja: ["Git", "SVN", "XCTest", "ユニットテスト", "Selenium", "Firebase診断"]

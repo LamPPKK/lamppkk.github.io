@@ -1,0 +1,13 @@
+{% assign project = include.project %}{% assign lang = include.lang %}{% assign copy = include.copy %}
+<article class="project-card" data-project-card data-category="{{ project.category }}">
+  <div class="project-card-top">
+    <span class="project-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+    {% case project.category %}{% when 'delivery' %}{% assign category_label = copy.projects.filter_delivery %}{% when 'mobile' %}{% assign category_label = copy.projects.filter_mobile %}{% when 'security' %}{% assign category_label = copy.projects.filter_security %}{% else %}{% assign category_label = copy.projects.filter_open %}{% endcase %}
+    <span class="category-pill">{{ category_label }}</span>
+  </div>
+  <h3><a href="{% if lang == 'en' %}/projects/{{ project.slug }}/{% else %}/{{ lang }}/projects/{{ project.slug }}/{% endif %}">{{ project.title[lang] }}</a></h3>
+  <p>{{ project.challenge[lang] }}</p>
+  <div class="project-card-meta"><span>{{ project.role[lang] }}</span><span>{% if project.period.en %}{{ project.period[lang] }}{% else %}{{ project.period }}{% endif %}</span></div>
+  {% if project.privacy == 'private-anonymized' %}<p class="private-note"><span aria-hidden="true">●</span> {{ copy.labels.private }}</p>{% endif %}
+  <a class="card-link" href="{% if lang == 'en' %}/projects/{{ project.slug }}/{% else %}/{{ lang }}/projects/{{ project.slug }}/{% endif %}">{{ copy.actions.view_case }} <span aria-hidden="true">↗</span></a>
+</article>

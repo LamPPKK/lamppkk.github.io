@@ -4,8 +4,9 @@
   <div class="experience-content">
     {% if item.concurrent %}<p class="concurrent-badge">{{ copy.experience.concurrent_note }}</p>{% endif %}
     <h3>{{ item.role[lang] }}</h3>
-    {% unless item.group == 'fpt-software' %}<p class="employer-name">{{ item.employer }}</p>{% endunless %}
+    {% unless item.group == 'fpt-software' %}<p class="employer-name"><a href="{{ item.organization_url }}" target="_blank" rel="noopener noreferrer">{{ item.employer }} {% include icon-external.html %}<span class="sr-only">— {% if item.organization_link_type == 'linkedin' %}{{ copy.labels.linkedin }}{% else %}{{ copy.labels.company_website }}{% endif %}</span></a></p>{% endunless %}
     <p class="experience-type">{{ item.employment_type[lang] }} · {{ item.location[lang] }}</p>
     <p>{{ item.summary[lang] }}</p>
+    {% if item.unit_links.size > 0 %}<div class="organization-links"><p>{{ copy.labels.related_links }}</p><ul>{% for link in item.unit_links %}<li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }} {% include icon-external.html %}</a></li>{% endfor %}</ul></div>{% endif %}
   </div>
 </div>

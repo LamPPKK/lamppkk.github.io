@@ -1,6 +1,7 @@
 ---
 - id: fpt-software-project-manager-2026-06
   employer: FPT Software
+  organization_url: https://fptsoftware.com/
   group: fpt-software
   progression_order: 3
   role:
@@ -28,6 +29,12 @@
     zh: 统筹软件项目的范围、进度、资源、质量、风险与利益相关方协同。
 - id: fpt-software-associate-pm-2025-06
   employer: FPT Software
+  organization_url: https://fptsoftware.com/
+  unit_links:
+  - label: Cyber Security
+    url: https://fptsoftware.com/services/digital-technologies-and-platforms/cybersecurity
+  - label: Night-Wolf Team
+    url: https://blogs.night-wolf.io
   group: fpt-software
   progression_order: 2
   role:
@@ -55,6 +62,12 @@
     zh: 协调短周期网络安全保障项目，连接安全测试、攻防安全与应用团队。
 - id: fpt-software-ios-developer-2021-08
   employer: FPT Software
+  organization_url: https://fptsoftware.com/
+  unit_links:
+  - label: GST - Global Smart Technologies
+    url: https://www.facebook.com/FSOFT.GST/
+  - label: techover.io
+    url: https://github.com/techover-io
   group: fpt-software
   progression_order: 1
   role:
@@ -82,6 +95,7 @@
     zh: 开发并维护银行、出行、机场运营、教育、汽车和商业领域的企业级iOS产品。
 - id: viettel-cyber-security-pm-2026-04
   employer: Viettel Cyber Security
+  organization_url: https://viettelcybersecurity.com/
   concurrent: true
   role:
     en: Project Manager
@@ -108,6 +122,7 @@
     zh: 在并行项目中协调以安全为核心的交付和跨职能执行。
 - id: nodesign-operations-pm-2024-06
   employer: Nodesign
+  organization_url: https://nodesign.vn/
   concurrent: true
   role:
     en: Operations Project Manager
@@ -134,6 +149,7 @@
     zh: 规划创意服务流程，协调产品团队，主持敏捷活动，并优化任务、预约和资源运营。
 - id: viettel-software-junior-pm-2026-02
   employer: Viettel Software
+  organization_url: https://viettelsoftware.com/
   concurrent: true
   role:
     en: Junior Project Manager
@@ -160,6 +176,7 @@
     zh: 在并行任务中支持项目计划、报告、团队协调和问题跟踪。
 - id: fpt-polytechnic-it-lecturer-2024-02
   employer: FPT Polytechnic College
+  organization_url: https://caodang.fpt.edu.vn/
   concurrent: true
   role:
     en: Information Technology Lecturer
@@ -186,6 +203,7 @@
     zh: 讲授实践型软件开发，并通过项目制学习支持学生。
 - id: fpt-software-innovation-mobile-engineer-2022-03
   employer: FPT Software Innovation
+  organization_url: https://fptsoftware.com/
   concurrent: true
   role:
     en: Mobile Engineer
@@ -212,6 +230,7 @@
     zh: 探索并交付Apple平台、增强现实和产品创新方向的移动能力。
 - id: fpt-software-academy-fresher-ios-2021-03
   employer: FPT Software Academy
+  organization_url: https://career.fpt-software.com/employer/fpt-software-academy/
   role:
     en: Fresher iOS Developer
     vi: Lập trình viên iOS Fresher
@@ -237,6 +256,8 @@
     zh: 完成系统化iOS工程培训并交付Swift实践任务。
 - id: qlhsdt-dotnet-developer-2020-02
   employer: Quản Lý Hồ Sơ Điện Tử
+  organization_url: https://www.linkedin.com/company/30193824/
+  organization_link_type: linkedin
   role:
     en: ".NET Developer"
     vi: Lập trình viên .NET
@@ -262,6 +283,7 @@
     zh: 为电子档案管理系统开发业务功能。
 - id: hht-it-helpdesk-2019-04
   employer: HHT Department of Information Technology
+  organization_url: https://hht.edu.vn/
   role:
     en: IT Helpdesk
     vi: Hỗ trợ kỹ thuật CNTT
@@ -287,6 +309,7 @@
     zh: 支持用户、诊断终端和网络问题，并维护日常IT服务。
 - id: gears-game-developer-2019-01
   employer: ".GEARS Studios"
+  organization_url: https://dotgears.com/
   role:
     en: Game Developer
     vi: Lập trình viên Game

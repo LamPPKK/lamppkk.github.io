@@ -13,7 +13,7 @@ layout: default
   <div class="character-ledger"><p class="eyebrow">{{ copy.names.character_meanings }}</p><div>{% for item in profile.chinese_characters %}<article><strong lang="zh">{{ item.character }}</strong><span>{{ item.reading }}</span><p>{{ item.meaning[lang] }}</p></article>{% endfor %}</div></div>
 </div></section>
 <section class="section-pad section-tint"><div class="shell detail-grid">
-  <div><p class="eyebrow">{{ copy.about.education }}</p>{% for item in profile.education %}<article class="detail-block"><h2>{{ item.school }}</h2><p>{{ item.degree[lang] }}</p><p class="mono">{{ item.start_date }} — {{ item.end_date }}</p></article>{% endfor %}</div>
+  <div><p class="eyebrow">{{ copy.about.education }}</p>{% for item in profile.education %}<article class="detail-block"><h2><a href="{{ item.school_url }}" target="_blank" rel="noopener noreferrer">{{ item.school }} {% include icon-external.html %}<span class="sr-only">— {{ copy.labels.school_website }}</span></a></h2><p>{{ item.degree[lang] }}</p><p class="mono">{{ item.start_date }} — {{ item.end_date }}</p></article>{% endfor %}</div>
   <div><p class="eyebrow">{{ copy.about.services }}</p><ul class="large-list">{% for item in profile.services[lang] %}<li>{{ item }}</li>{% endfor %}</ul></div>
   <div><p class="eyebrow">{{ copy.about.languages }}</p><dl class="language-list">{% for item in profile.languages %}<div><dt>{{ item.name[lang] }}</dt><dd>{{ item.level[lang] }}</dd></div>{% endfor %}</dl></div>
   <div><p class="eyebrow">{{ copy.about.principles }}</p><ol class="principle-list">{% for item in profile.principles[lang] %}<li>{{ item }}</li>{% endfor %}</ol></div>

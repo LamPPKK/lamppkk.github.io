@@ -40,14 +40,48 @@ about:
 education:
 - id: utc-it-engineer
   school: University of Transport and Communications
+  school_url: https://en.utc.edu.vn/
   degree:
-    en: Engineer’s Degree, Information Technology
-    vi: Bằng Kỹ sư, Công nghệ Thông tin
-    ja: 工学士相当・情報技術
-    zh: 工程师学位，信息技术
-  start_date: 2017-08
-  end_date: 2022-08
-  source: cv
+    en: Bachelor of Engineering, Computer Programming
+    vi: Bằng Kỹ sư, Lập trình Máy tính
+    ja: 工学士・コンピュータプログラミング
+    zh: 工程学学士，计算机编程
+  start_date: '2018'
+  end_date: '2022'
+  source: linkedin
+- id: funix-information-technology
+  school: FPT FUNiX University
+  school_url: https://funix.edu.vn/
+  degree:
+    en: Bachelor’s degree, Information Technology
+    vi: Bằng Cử nhân, Công nghệ Thông tin
+    ja: 学士・情報技術
+    zh: 学士学位，信息技术
+  start_date: 2017-10
+  end_date: 2021-09
+  source: linkedin
+- id: hht-application-software
+  school: Hanoi High-Tech College
+  school_url: https://hht.edu.vn/en/home/
+  degree:
+    en: College Degree, Frontend & Application Software Development
+    vi: Cao đẳng, Phát triển Frontend & Phần mềm Ứng dụng
+    ja: 短期大学士・フロントエンド／アプリケーション開発
+    zh: 专科学位，前端与应用软件开发
+  start_date: '2017'
+  end_date: '2020'
+  source: linkedin
+- id: hau-applied-informatics
+  school: Hanoi Architectural University
+  school_url: https://hau.edu.vn/?lang=en
+  degree:
+    en: Intermediate Applied Informatics, Information Technology
+    vi: Trung cấp Tin học Ứng dụng, Công nghệ Thông tin
+    ja: 応用情報学中級課程・情報技術
+    zh: 应用信息学中级课程，信息技术
+  start_date: 2014-08
+  end_date: 2017-08
+  source: linkedin
 services:
   en:
   - Technical project leadership

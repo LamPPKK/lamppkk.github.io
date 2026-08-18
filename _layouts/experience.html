@@ -4,10 +4,10 @@ layout: default
 {% assign lang = page.lang %}{% assign copy = site.data.locales[lang] %}
 <header class="page-hero section-pad" data-console-label="{{ copy.labels.loading }}"><div class="shell narrow"><p class="eyebrow">2019 — {{ copy.labels.current }}</p><h1>{{ copy.experience.title }}</h1><p>{{ copy.experience.intro }}</p></div></header>
 <section class="section-pad"><div class="shell experience-shell">
+  {% assign fpt_roles = site.data.experience | where: "group", "fpt-software" | reverse %}
   <article class="experience-group">
-    <div class="experience-employer"><span class="employer-mark">F</span><div><h2>FPT Software</h2><p>{{ copy.experience.progression }} · 2021 — {{ copy.labels.current }}</p></div></div>
+    <div class="experience-employer"><span class="employer-mark">F</span><div><h2><a href="{{ fpt_roles.first.organization_url }}" target="_blank" rel="noopener noreferrer">FPT Software {% include icon-external.html %}<span class="sr-only">— {{ copy.labels.company_website }}</span></a></h2><p>{{ copy.experience.progression }} · 2021 — {{ copy.labels.current }}</p></div></div>
     <div class="progression-line">
-      {% assign fpt_roles = site.data.experience | where: "group", "fpt-software" | reverse %}
       {% for item in fpt_roles %}{% include experience-item.html item=item lang=lang copy=copy %}{% endfor %}
     </div>
   </article>

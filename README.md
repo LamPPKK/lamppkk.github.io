@@ -29,6 +29,12 @@ while Oinam remains the pinned remote-theme foundation.
 - CV: responsibilities, technologies, and private project summaries.
 - GitHub: public repository metadata, refreshed by `scripts/sync_github_repos.rb`.
 
+Public LinkedIn projects are connected to verified customer sites and current app-store
+listings where those links exist. Experience and education records link to official
+organization sites. Credential cards use public Coursera/Udemy certificate images and
+issuer verification pages when available; records without stable public evidence fall
+back to the LinkedIn certifications section instead of guessing a URL.
+
 Private engagements are anonymized. The build never signs in to LinkedIn and stores
 no LinkedIn cookie or token. GitHub Pages deploys from `master` through GitHub Actions.
 

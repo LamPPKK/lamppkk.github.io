@@ -2,7 +2,6 @@
 - id: enterprise-mobile-security
   slug: enterprise-mobile-security
   category: security
-  featured: true
   privacy: private-anonymized
   period: 2025-07 — 2026-03
   experience_ids:
@@ -95,7 +94,6 @@
 - id: japanese-banking-security
   slug: japanese-banking-security
   category: security
-  featured: true
   privacy: private-anonymized
   period: 2025-11 — 2025-12
   experience_ids:
@@ -224,15 +222,15 @@
   slug: multi-market-mobile-banking
   category: mobile
   featured: true
-  privacy: private-anonymized
-  period: 2024-02 — 2025-06
+  privacy: public
+  period: 2024-07 — 2025-05
   experience_ids:
   - fpt-software-ios-developer-2021-08
   title:
-    en: Multi-Market Mobile Banking
-    vi: Ngân hàng Mobile Đa Thị trường
-    ja: マルチマーケット・モバイルバンキング
-    zh: 多市场移动银行
+    en: HSBC Mobile Banking
+    vi: Ngân hàng Mobile HSBC
+    ja: HSBCモバイルバンキング
+    zh: 汇丰移动银行
   role:
     en: Senior iOS Engineer
     vi: Kỹ sư iOS cấp cao
@@ -269,19 +267,26 @@
   - XCTest
   source:
   - cv
-  links: []
+  - linkedin
+  links:
+  - type: customer_website
+    url: https://www.hsbc.com/
+  - type: app_store
+    url: https://apps.apple.com/vn/app/hsbc-vietnam/id1472163155
+  - type: google_play
+    url: https://play.google.com/store/apps/details?id=vn.hsbc.hsbcvietnam
 - id: mobility-super-app
   slug: mobility-super-app
   category: mobile
-  privacy: private-anonymized
-  period: 2022-12 — 2024-01
+  privacy: public
+  period: 2022-11 — 2024-01
   experience_ids:
   - fpt-software-ios-developer-2021-08
   title:
-    en: Mobility Super App
-    vi: Siêu ứng dụng Di chuyển
-    ja: モビリティ・スーパーアプリ
-    zh: 出行超级应用
+    en: CDG Zig — Taxis, Cars & Buses
+    vi: CDG Zig — Taxi, Ô tô & Xe buýt
+    ja: CDG Zig — タクシー・自動車・バス
+    zh: CDG Zig — 出租车、汽车与巴士
   role:
     en: iOS Engineer
     vi: Kỹ sư iOS
@@ -316,19 +321,26 @@
   - '2024'
   source:
   - cv
-  links: []
+  - linkedin
+  links:
+  - type: customer_website
+    url: https://zig.live/
+  - type: app_store
+    url: https://apps.apple.com/sg/app/cdg-zig-taxis-cars-buses/id954951647
+  - type: google_play
+    url: https://play.google.com/store/apps/details?id=com.codigo.comfort
 - id: airport-operations-mobile
   slug: airport-operations-mobile
   category: mobile
-  privacy: private-anonymized
-  period: 2022-04 — 2023-02
+  privacy: public
+  period: 2022-08 — 2023-01
   experience_ids:
   - fpt-software-ios-developer-2021-08
   title:
-    en: Airport Operations Mobile App
-    vi: Ứng dụng Mobile Vận hành Sân bay
-    ja: 空港運用モバイルアプリ
-    zh: 机场运营移动应用
+    en: ANA Clover Airport Operations
+    vi: ANA Clover — Vận hành Sân bay
+    ja: ANA Clover 空港運用
+    zh: ANA Clover 机场运营
   role:
     en: iOS Engineer
     vi: Kỹ sư iOS
@@ -359,19 +371,22 @@
   - Core Data
   source:
   - cv
-  links: []
+  - linkedin
+  links:
+  - type: customer_website
+    url: https://www.ana.co.jp/
 - id: academic-mobile-portal
   slug: academic-mobile-portal
   category: mobile
-  privacy: private-anonymized
-  period: 2022-04 — 2023-01
+  privacy: public
+  period: 2022-04 — 2023-12
   experience_ids:
   - fpt-software-ios-developer-2021-08
   title:
-    en: Academic Mobile Portal
-    vi: Cổng Mobile Học vụ
-    ja: 教育モバイルポータル
-    zh: 校园移动门户
+    en: SP Mobile
+    vi: SP Mobile
+    ja: SP Mobile
+    zh: SP Mobile
   role:
     en: Mobile Developer & Team Lead
     vi: Lập trình viên Mobile & Trưởng nhóm
@@ -404,19 +419,24 @@
   - Push notifications
   source:
   - cv
-  links: []
+  - linkedin
+  links:
+  - type: customer_website
+    url: https://www.sp.edu.sg/
+  - type: google_play
+    url: https://play.google.com/store/apps/details?id=sg.edu.sp.spmobilev2
 - id: automotive-service-crm
   slug: automotive-service-crm
   category: mobile
-  privacy: private-anonymized
-  period: 2021-12 — 2022-04
+  privacy: public
+  period: 2021-10 — 2022-06
   experience_ids:
   - fpt-software-ios-developer-2021-08
   title:
-    en: Automotive Service CRM
-    vi: CRM Dịch vụ Ô tô
-    ja: 自動車サービスCRM
-    zh: 汽车服务CRM
+    en: My Honda+
+    vi: My Honda+
+    ja: My Honda+
+    zh: My Honda+
   role:
     en: iOS Engineer
     vi: Kỹ sư iOS
@@ -447,21 +467,28 @@
   - Core Data
   source:
   - cv
-  links: []
+  - linkedin
+  links:
+  - type: customer_website
+    url: https://www.honda.com.vn/myhonda/tai-ung-dung
+  - type: app_store
+    url: https://apps.apple.com/vn/app/my-honda/id1482745552
+  - type: google_play
+    url: https://play.google.com/store/apps/details?id=vn.co.honda.hondacrm
 - id: luxury-ar-commerce
   slug: luxury-ar-commerce
   category: mobile
   featured: true
-  privacy: private-anonymized
-  period: 2021-08 — 2022-05
+  privacy: public
+  period: 2021-09 — 2022-02
   experience_ids:
   - fpt-software-ios-developer-2021-08
   - fpt-software-innovation-mobile-engineer-2022-03
   title:
-    en: Luxury AR Commerce Experience
-    vi: Trải nghiệm Thương mại AR Cao cấp
-    ja: ラグジュアリーARコマース体験
-    zh: 高端AR商业体验
+    en: DOJI Smart
+    vi: DOJI Smart
+    ja: DOJI Smart
+    zh: DOJI Smart
   role:
     en: Mobile Engineer
     vi: Kỹ sư Mobile
@@ -493,24 +520,27 @@
   - UIKit
   source:
   - cv
-  links: []
+  - linkedin
+  links:
+  - type: customer_website
+    url: https://trangsuc.doji.vn/pages/doji-smart-mua-sam-trang-suc-thong-minh
 - id: creative-operations-platform
   slug: creative-operations-platform
   category: delivery
   featured: true
-  privacy: private-anonymized
+  privacy: public
   period:
-    en: 2024-06 — Present
-    vi: 2024-06 — Hiện tại
-    ja: 2024-06 — 現在
-    zh: 2024-06 — 至今
+    en: 2024-07 — Present
+    vi: 2024-07 — Hiện tại
+    ja: 2024-07 — 現在
+    zh: 2024-07 — 至今
   experience_ids:
   - nodesign-operations-pm-2024-06
   title:
-    en: Creative Operations Platform
-    vi: Nền tảng Vận hành Dịch vụ Sáng tạo
-    ja: クリエイティブ運用プラットフォーム
-    zh: 创意服务运营平台
+    en: Rotider Media Operations Platform
+    vi: Nền tảng Vận hành Rotider Media
+    ja: Rotider Media 運用プラットフォーム
+    zh: Rotider Media 运营平台
   role:
     en: Operations Project Manager
     vi: Quản lý Dự án Vận hành
@@ -546,7 +576,161 @@
   - Agile/Scrum
   source:
   - cv
-  links: []
+  - linkedin
+  links:
+  - type: customer_website
+    url: https://rotider.com/
+- id: canon-mini-print
+  slug: canon-mini-print
+  category: mobile
+  featured: true
+  privacy: public
+  period: 2023-12 — 2024-04
+  experience_ids:
+  - fpt-software-ios-developer-2021-08
+  title:
+    en: Canon Mini Print
+    vi: Canon Mini Print
+    ja: Canon Mini Print
+    zh: Canon Mini Print
+  role:
+    en: iOS Engineer
+    vi: Kỹ sư iOS
+    ja: iOSエンジニア
+    zh: iOS工程师
+  challenge:
+    en: Keep a Bluetooth-connected photo creation and printing experience reliable across editing, device pairing, and output workflows.
+    vi: Đảm bảo trải nghiệm sáng tạo và in ảnh qua Bluetooth ổn định xuyên suốt chỉnh sửa, ghép nối thiết bị và xuất bản in.
+    ja: 写真編集、Bluetoothペアリング、印刷出力にまたがる体験を安定して提供すること。
+    zh: 在照片编辑、蓝牙配对和打印输出流程中保持稳定可靠的体验。
+  contribution:
+    en:
+    - Delivered and stabilized iOS workflows for photo editing, printer connectivity, and print preparation.
+    - Coordinated defect analysis and release validation across device and operating-system variants.
+    vi:
+    - Phát triển và ổn định luồng iOS cho chỉnh sửa ảnh, kết nối máy in và chuẩn bị bản in.
+    - Phối hợp phân tích lỗi và xác minh phát hành trên nhiều thiết bị, phiên bản hệ điều hành.
+    ja:
+    - 写真編集、プリンター接続、印刷準備のiOSフローを実装・安定化。
+    - 端末・OS差異をまたぐ不具合分析とリリース検証を調整。
+    zh:
+    - 交付并稳定照片编辑、打印机连接和打印准备的iOS流程。
+    - 协调跨设备与操作系统版本的缺陷分析和发布验证。
+  technologies:
+  - Swift
+  - UIKit
+  - CoreBluetooth
+  - Photos
+  - XCTest
+  source:
+  - linkedin
+  links:
+  - type: customer_website
+    url: https://www.usa.canon.com/support/wireless-help
+  - type: app_store
+    url: https://apps.apple.com/us/app/canon-mini-print/id1335828771
+  - type: google_play
+    url: https://play.google.com/store/apps/details?id=com.canon.cebm.miniprint.android.us
+- id: pluxee-benefits-platform
+  slug: pluxee-benefits-platform
+  category: mobile
+  privacy: public
+  period: 2022-05 — 2023-06
+  experience_ids:
+  - fpt-software-ios-developer-2021-08
+  title:
+    en: Pluxee Benefits Platform
+    vi: Nền tảng Phúc lợi Pluxee
+    ja: Pluxee 福利厚生プラットフォーム
+    zh: Pluxee 员工福利平台
+  role:
+    en: iOS Engineer
+    vi: Kỹ sư iOS
+    ja: iOSエンジニア
+    zh: iOS工程师
+  challenge:
+    en: Deliver a secure employee-benefits experience across several regional Sodexo product variants that later became part of Pluxee.
+    vi: Triển khai trải nghiệm phúc lợi nhân viên an toàn cho nhiều biến thể Sodexo theo khu vực, sau này thuộc thương hiệu Pluxee.
+    ja: 後にPluxeeへ移行した複数地域のSodexo製品で、安全な従業員福利厚生体験を提供すること。
+    zh: 为多个地区的Sodexo产品版本交付安全的员工福利体验，这些产品后来归入Pluxee品牌。
+  contribution:
+    en:
+    - Built shared iOS capabilities for balances, transactions, rewards, and regional benefit programs.
+    - Supported integration and release work across Philippines, Indonesia, and Vietnam variants.
+    vi:
+    - Xây dựng năng lực iOS dùng chung cho số dư, giao dịch, ưu đãi và chương trình phúc lợi theo khu vực.
+    - Hỗ trợ tích hợp và phát hành cho các biến thể Philippines, Indonesia và Việt Nam.
+    ja:
+    - 残高、取引、特典、地域別福利厚生に共通するiOS機能を実装。
+    - フィリピン、インドネシア、ベトナム版の統合とリリースを支援。
+    zh:
+    - 构建余额、交易、奖励和地区福利计划的共享iOS能力。
+    - 支持菲律宾、印度尼西亚和越南版本的集成与发布。
+  technologies:
+  - Swift
+  - UIKit
+  - REST APIs
+  - Secure storage
+  - Analytics
+  variants:
+  - Sodexo ePass Philippines
+  - Sodexo Mobile Pass Indonesia
+  - Mobile Gift Vietnam
+  source:
+  - linkedin
+  links:
+  - type: customer_website
+    url: https://www.pluxeegroup.com/
+  - type: app_store
+    url: https://apps.apple.com/us/app/pluxee/id6504407951
+  - type: google_play
+    url: https://play.google.com/store/apps/details?id=com.pluxeegroup.consumers.global
+- id: son-tay-laboratory-information-system
+  slug: son-tay-laboratory-information-system
+  category: delivery
+  privacy: public
+  period: 2020-07 — 2021-01
+  experience_ids:
+  - qlhsdt-dotnet-developer-2020-02
+  title:
+    en: Son Tay General Hospital Laboratory Information System
+    vi: Hệ thống Thông tin Xét nghiệm Bệnh viện Đa khoa Sơn Tây
+    ja: ソンタイ総合病院 検査情報システム
+    zh: 山西综合医院实验室信息系统
+  role:
+    en: .NET Developer
+    vi: Lập trình viên .NET
+    ja: .NET開発者
+    zh: .NET开发工程师
+  challenge:
+    en: Connect laboratory analyzers and test machines to a host system with dependable message exchange and traceable results.
+    vi: Kết nối máy phân tích, máy xét nghiệm với hệ thống máy chủ bằng trao đổi thông điệp tin cậy và kết quả có thể truy vết.
+    ja: 検査分析装置とホストシステムを接続し、信頼できるメッセージ交換と追跡可能な結果を実現すること。
+    zh: 将实验室分析仪和检测设备连接到主机系统，实现可靠的消息交换与结果追踪。
+  contribution:
+    en:
+    - Built C# services that connected laboratory devices with the hospital host system.
+    - Implemented and tested Varicode-based communication for analyzer result exchange.
+    vi:
+    - Xây dựng dịch vụ C# kết nối thiết bị xét nghiệm với hệ thống máy chủ bệnh viện.
+    - Triển khai và kiểm thử giao tiếp dựa trên Varicode để trao đổi kết quả phân tích.
+    ja:
+    - 検査機器と病院ホストを接続するC#サービスを実装。
+    - 分析結果交換のためのVaricode通信を実装・テスト。
+    zh:
+    - 构建连接实验室设备与医院主机系统的C#服务。
+    - 实现并测试基于Varicode的分析结果通信。
+  technologies:
+  - C#
+  - .NET
+  - Varicode
+  - Device integration
+  - Laboratory information systems
+  source:
+  - linkedin
+  links:
+  - type: customer_website
+    url: https://benhviendakhoasontay.vn/
 - id: xanhtab
   slug: xanhtab
   category: open-source

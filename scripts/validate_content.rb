@@ -13,8 +13,11 @@ profile = load_yaml.call("profile.yml")
 experience = load_yaml.call("experience.yml")
 projects = load_yaml.call("projects.yml")
 credentials = load_yaml.call("credentials.yml")
+credential_evidence = load_yaml.call("credential_evidence.yml")
 skills = load_yaml.call("skills.yml")
 locales = load_yaml.call("locales.yml")
+
+https_url = ->(value) { value.to_s.match?(%r{\Ahttps://[^\s]+\z}) }
 
 flatten_locale = lambda do |value, prefix = nil, result = {}|
   if value.is_a?(Hash)
@@ -48,7 +51,12 @@ end
   localized.call(profile, field, "profile")
   LANGUAGES.each { |lang| errors << "profile: empty #{field}.#{lang}" if profile.dig(field, lang).to_a.empty? }
 end
-profile.fetch("education", []).each { |item| localized.call(item, "degree", "education #{item['id']}") }
+profile.fetch("education", []).each do |item|
+  context = "education #{item['id']}"
+  localized.call(item, "degree", context)
+  errors << "#{context}: missing official school URL" unless https_url.call(item["school_url"])
+end
+errors << "profile: education must not be empty" if profile.fetch("education", []).empty?
 profile.fetch("languages", []).each do |item|
   localized.call(item, "name", "language #{item['id']}")
   localized.call(item, "level", "language #{item['id']}")
@@ -65,6 +73,11 @@ errors << "duplicate experience record" unless experience_keys.uniq.size == expe
 experience.each do |item|
   context = "experience #{item['id']}"
   %w[role employment_type summary location].each { |field| localized.call(item, field, context) }
+  errors << "#{context}: missing official organization URL" unless https_url.call(item["organization_url"])
+  item.fetch("unit_links", []).each do |link|
+    errors << "#{context}: unit link is missing a label" if link["label"].to_s.strip.empty?
+    errors << "#{context}: invalid unit URL" unless https_url.call(link["url"])
+  end
 end
 
 %w[id slug].each do |field|
@@ -72,6 +85,8 @@ end
   errors << "duplicate project #{field}" unless values.uniq.size == values.size
 end
 experience_ids = experience.map { |item| item["id"] }
+allowed_link_types = %w[github live website customer_website app_store google_play].freeze
+allowed_sources = %w[cv professional-portfolio github linkedin].freeze
 projects.each do |project|
   context = "project #{project['id']}"
   %w[title role challenge contribution].each { |field| localized.call(project, field, context) }
@@ -84,9 +99,15 @@ projects.each do |project|
     end
   end
   project.fetch("experience_ids", []).each { |id| errors << "#{context}: unknown experience #{id}" unless experience_ids.include?(id) }
-  project.fetch("links", []).each { |link| errors << "#{context}: invalid external URL" unless link["url"].to_s.start_with?("https://") }
+  project.fetch("source", []).each { |source| errors << "#{context}: unsupported source #{source}" unless allowed_sources.include?(source) }
+  project.fetch("links", []).each do |link|
+    errors << "#{context}: unsupported link type #{link['type']}" unless allowed_link_types.include?(link["type"])
+    errors << "#{context}: invalid external URL" unless https_url.call(link["url"])
+  end
   if project["privacy"] == "private-anonymized" && !project.fetch("links", []).empty?
     errors << "#{context}: private case study must not expose external links"
+  elsif project["privacy"] != "private-anonymized" && project.fetch("links", []).empty?
+    errors << "#{context}: public case study must expose a verified external link"
   end
   LANGUAGES.each do |lang|
     prefix = lang == "en" ? "" : "#{lang}/"
@@ -98,6 +119,15 @@ end
 credential_keys = credentials.map { |item| [item.dig("title", "en").to_s.downcase, item["issuer"].to_s.downcase, item["credential_id"].to_s.downcase] }
 errors << "duplicate credential" unless credential_keys.uniq.size == credential_keys.size
 credentials.each { |item| localized.call(item, "title", "credential #{item['id']}") }
+credential_ids = credentials.map { |item| item["id"] }
+credential_evidence.each do |id, evidence|
+  errors << "credential evidence #{id}: unknown credential" unless credential_ids.include?(id)
+  errors << "credential evidence #{id}: invalid credential URL" unless https_url.call(evidence["credential_url"])
+  if evidence.key?("image_url")
+    errors << "credential evidence #{id}: invalid image URL" unless https_url.call(evidence["image_url"])
+  end
+end
+errors << "credential evidence must not be empty" if credential_evidence.empty?
 
 skills.each do |group|
   context = "skill group #{group['id']}"
